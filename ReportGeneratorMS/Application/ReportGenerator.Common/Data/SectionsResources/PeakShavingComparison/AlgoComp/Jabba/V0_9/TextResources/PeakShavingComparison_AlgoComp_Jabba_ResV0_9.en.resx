@@ -1,0 +1,53 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="CommonDataObj_BestCase_1" xml:space="preserve">
+        <value>Your installation is controlled according to the smart [CompanyName] algorithm.</value>
+    </data>
+    <data name="CommonDataObj_BestCase_2" xml:space="preserve">
+        <value>Your average monthly peak would now be [Value] kW.</value>
+    </data>
+    <data name="CommonDataObj_BestCase_3" xml:space="preserve">
+        <value>This means a capacity rate for the simulation period of €[Price1]/month. That is an {b}additional saving of €[Price2]/month{/b} over the simulation period of one month thanks to the clever [CompanyName] algorithm. So extra on top of the 'normal' savings that you still achieve with your [BatteryName] home battery by increasing your grid independence.</value>
+    </data>
+    <data name="CommonDataObj_BestCase_Title" xml:space="preserve">
+        <value>Optimization</value>
+    </data>
+    <data name="CommonDataObj_RefCase_1" xml:space="preserve">
+        <value>Your home battery runs on the standard algorithm of self-consumption optimization. This does not alter the fact that peak shaving is already being done here and there. The moment you produce solar panels, the consumers in your house are covered. Only when more power is required than production is energy from the grid and a peak can occur. If necessary, your home battery will intervene first at those times.</value>
+    </data>
+    <data name="CommonDataObj_RefCase_2" xml:space="preserve">
+        <value>Your highest average monthly peak was [Value] kW, and occurred on [Date] between [Time1] and [Time2].</value>
+    </data>
+    <data name="CommonDataObj_RefCase_3" xml:space="preserve">
+        <value>This means a capacity rate for the simulation period of €[Value]/month.</value>
+    </data>
+    <data name="CommonDataObj_RefCase_Title" xml:space="preserve">
+        <value>Reference Case</value>
+    </data>
+    <data name="PeakShavingMonth_Best_GridPower" xml:space="preserve">
+        <value>Net purchase</value>
+    </data>
+    <data name="PeakShavingMonth_Best_MonthPeak" xml:space="preserve">
+        <value>Average monthly peak</value>
+    </data>
+    <data name="PeakShavingMonth_Ref_GridPower" xml:space="preserve">
+        <value>Net purchase</value>
+    </data>
+    <data name="PeakShavingMonth_Ref_MonthPeak" xml:space="preserve">
+        <value>Average monthly peak</value>
+    </data>
+    <data name="Title" xml:space="preserve">
+        <value>SIMULATION</value>
+    </data>
+</root>

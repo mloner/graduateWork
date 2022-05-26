@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+        <RootNamespace>ReportingFramework.WebApi.Application.Host</RootNamespace>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>1591</NoWarn>
+        <ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
+    </PropertyGroup>
+
+ 
+
+    <PropertyGroup>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <IsTransformWebConfigDisabled>true</IsTransformWebConfigDisabled>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Update="appsettings.Demo.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Update="appsettings.Dev.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Update="appsettings.Prod.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Update="appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.4">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\ReportConfigurationMS\Application\Worker\Worker.csproj" />
+      <ProjectReference Include="..\..\..\ReportConfigurationMS\Domain\ReportConfigurationMS.Domain\ReportConfigurationMS.Domain.csproj" />
+      <ProjectReference Include="..\..\..\ReportConfigurationMS\Infrastructure\ReportConfigurationMS.DataBase\ReportConfigurationMS.DataBase.csproj" />
+      <ProjectReference Include="..\..\..\SenderClient\SenderClient.csproj" />
+      <ProjectReference Include="..\..\..\WebApp\Application\Backend\ReportingFramework.WebApp.Backend\ReportingFramework.WebApp.Backend.csproj" />
+      <ProjectReference Include="..\..\Application\CugReportsMS.Assembler\CugReportsMS.Assembler.csproj" />
+      <ProjectReference Include="..\..\Application\CugReportsMS.Orchestrator\CugReportsMS.Orchestrator.csproj" />
+      <ProjectReference Include="..\..\CugReportsMSClient\CugReportsMSClient\CugReportsMSClient.csproj" />
+      <ProjectReference Include="..\..\Domain\CugReportsMS.DBDtos\CugReportsMS.DBDtos.csproj" />
+      <ProjectReference Include="..\..\Domain\CugReportsMS.Dtos\CugReportsMS.Dtos.csproj" />
+      <ProjectReference Include="..\..\Infrastructure\CugReportsMS.DataBase\CugReportsMS.DataBase.csproj" />
+    </ItemGroup>
+
+    
+
+</Project>

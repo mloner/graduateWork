@@ -1,0 +1,68 @@
+
+<div (click)="formModal =true; getJson()">
+  <a class="">Watch</a>
+  <i class="fa fa-eye ml-2"></i>
+</div>
+
+<!-- Form Modal -->
+<div class="modal" [ngClass]="{ active: formModal }" (click)="closeModal($event)">
+  <div class="modal-dialog" role="dialog" style="width: 900px">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="col-md-12">
+          <div class="card-title-container">
+            <h5 class="card-title">Json</h5>
+          </div>
+          <div class="col-md-2 dialog-close-btn-container">
+            <button type="button" class="close" data-dismiss="modal" (click)="formModal = false"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-body modal-body-watch">
+        <div class="padding-content">
+          <!--Json&Diagram-->
+<!--          <div>-->
+<!--            <div class="row col-md-12 two-elem">-->
+<!--              &lt;!&ndash;Json&ndash;&gt;-->
+<!--              <div class="card two-card-element col-md-12">-->
+<!--                <h1>Json</h1>-->
+<!--                <div class="col-md-12 two-element-content">-->
+<!--                  <div class="row padding-b-null">-->
+<!--                    <pre [innerText]="beautifyJsonString()"></pre>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              &lt;!&ndash;Diagram&ndash;&gt;-->
+<!--              <div class="card two-card-element col-md-12">-->
+<!--                <h1>Diagram</h1>-->
+<!--                &lt;!&ndash;Table&ndash;&gt;-->
+<!--                <div id="myDiagramDiv_watch_{{index}}" class="myDiagram"></div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+          <div>
+            <!--Json-->
+            <div class="col-md-12 two-element-content">
+              <div class="row padding-b-null">
+                <div #json></div>
+<!--                <pre [innerText]="beautifyJsonString()"></pre>-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Button-->
+        <div class="button-elem">
+          <div class="">
+            <a class="btnLogout" (click)="downloadJsonFile()">Download</a>
+          </div>
+          <div class="button-cancel">
+            <div class="">
+              <a class="btnLogout" (click)="formModal = false">Cancel</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>SectionModels</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Application\ReportGenerator.Common\ReportGenerator.Common.csproj" />
+      <ProjectReference Include="..\..\Infrastructure\ReportGenerator.DataBase\ReportGenerator.DataBase.csproj" />
+      <ProjectReference Include="..\ReportGenerator.Dtos\ReportGenerator.Dtos.csproj" />
+    </ItemGroup>
+
+    
+
+</Project>

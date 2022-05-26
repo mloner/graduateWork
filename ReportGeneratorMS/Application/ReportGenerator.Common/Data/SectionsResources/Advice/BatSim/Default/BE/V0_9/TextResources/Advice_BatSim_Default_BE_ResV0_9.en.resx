@@ -1,0 +1,98 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Our advice</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>Below we show which battery setup is best for you and what the investment in this system would be. Below we have worked out what this will yield for you in two ways. In the case of option one, we show what it would yield once you start using the recommended battery in the standard way. That is, only aimed at increasing self-consumption. In option two we show what it yields for you if you add the smart control of [CompanyName] that makes use of the possibilities on the energy market and takes into account the peak shaven.</value>
+    </data>
+    <data name="RecommendedConfiguration" xml:space="preserve">
+        <value>Recommended configuration</value>
+    </data>
+    <data name="Power" xml:space="preserve">
+        <value>Power</value>
+    </data>
+    <data name="Capacity" xml:space="preserve">
+        <value>Capacity</value>
+    </data>
+    <data name="BatteryCost" xml:space="preserve">
+        <value>Battery</value>
+    </data>
+    <data name="ServiceFeePerMonth" xml:space="preserve">
+        <value>[CompanyName] service fee</value>
+    </data>
+    <data name="SimpleTariff" xml:space="preserve">
+        <value>Simple tariff</value>
+    </data>
+    <data name="DynamicTariff" xml:space="preserve">
+        <value>Dynamic tariff</value>
+    </data>
+    <data name="Savings" xml:space="preserve">
+        <value>Net savings</value>
+    </data>
+    <data name="Total" xml:space="preserve">
+        <value>Total</value>
+    </data>
+    <data name="PaybackPeriod" xml:space="preserve">
+        <value>Payback period</value>
+    </data>
+    <data name="ReturnOfInvestment" xml:space="preserve">
+        <value>Return on investment</value>
+    </data>
+    <data name="Bank" xml:space="preserve">
+        <value>Bank</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_Title" xml:space="preserve">
+        <value>With [CompanyName] you are the boss of your own battery</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_1" xml:space="preserve">
+        <value>In our analysis, we examined your specific situation in detail. We have given you insight into the basic payback period that suits you best technically and financially. In addition, we have calculated the added value you can achieve if you smartly monitor and control your battery with [CompanyName]. Not based on average or standard models, but based on your data.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_2" xml:space="preserve">
+        <value>Because [CompanyName] lets the battery work more intensively for you, day and night, summer and winter, it can yield more. In addition, continuous monitoring enables us to proactively adjust management in the event of changes in the law or tariff structure. After all, the purchase of a battery is a long-term investment, and as an owner of solar panels you know that a lot can change over the years.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_3" xml:space="preserve">
+        <value>With [CompanyName] you always stay in control of your own battery.</value>
+    </data>
+    <data name="ComparisonTable_Header" xml:space="preserve">
+        <value>[Algo] + [MarketType] tariff</value>
+    </data>
+    <data name="ComparisonTable_MarketType_Dam" xml:space="preserve">
+        <value>dynamic</value>
+    </data>
+    <data name="ComparisonTable_MarketType_DayNight" xml:space="preserve">
+        <value>day/night</value>
+    </data>
+    <data name="CommonDataObj_Desc_1_1_NoCase" xml:space="preserve">
+        <value>Below we show which battery setup is best for you and what the investment in this system would be. The purchase of a battery does not yet outweigh the benefits of the netting arrangement for you. However, this scheme will gradually be phased out from 2023. As a result, there will come a time when investing in a battery is profitable. Bliq puts your battery to work harder, so that it becomes profitable sooner and your payback time is shortened. If you start driving electrically in the future or, for example, purchase a heat pump, your consumption profile will change. Continue to use our monitoring, so that we can inform you the moment a battery becomes interesting for you.</value>
+    </data>
+    <data name="CommonDataObj_Desc_1_2_NoCase" xml:space="preserve">
+        <value>Below you can see which system would be most suitable for your energy consumption. We have worked out what the return on this system would be in two ways. In the case of option one, we show what it would yield once you start using the recommended battery in the standard way. That is, only aimed at increasing self-consumption. In option two, we show what it yields for you if you add Bliq's smart control system that makes use of the opportunities on the energy market and takes peak shaven into account.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_1_NoCase" xml:space="preserve">
+        <value>In our analysis, we have now examined your specific situation in detail. We have given you insight into the basic payback time of the battery that suits you best technically and financially. We also calculated the added value you can achieve if you smartly monitor and control your battery with [CompanyName]. Not based on averages or standard models, but based on your data. With [CompanyName] you always remain in control of your own battery.</value>
+    </data>
+    <data name="ComparisonTablePaybackPeriodBlock_BatteryLifeSpan" xml:space="preserve">
+        <value>Lifespan of the battery is [Lifespan] years.</value>
+    </data>
+    <data name="ComparisonTableRerurnOfInvestmentBlock_InvestmentPeriodAdvice" xml:space="preserve">
+        <value>If you purchase in the year [ViablePeriod], you will get a return on your investment in the following 15 years.</value>
+    </data>
+    <data name="ComparisonTable_Algo_Algo" xml:space="preserve">
+        <value>[CompanyName] control</value>
+    </data>
+    <data name="ComparisonTable_Algo_NoAlgo" xml:space="preserve">
+        <value>No control</value>
+    </data>
+</root>

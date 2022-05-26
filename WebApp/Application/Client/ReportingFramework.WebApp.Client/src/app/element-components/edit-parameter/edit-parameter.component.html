@@ -1,0 +1,111 @@
+<!--<div class="text-center text-center size">-->
+<!--  <button-->
+<!--    pButton-->
+<!--    type="button"-->
+<!--    icon="fa fa-pencil"-->
+<!--    class="button-primary"-->
+<!--    (click)="formModal = true"-->
+<!--  ></button>-->
+<!--  <p class="button-para-text">Edit</p>-->
+<!--</div>-->
+
+<div (click)="formModal = true">
+  <a class="" icon="fa fa-pencil">Edit</a>
+  <i class="fa fa-pencil ml-2"></i>
+</div>
+
+<!-- Form Modal -->
+<div class="modal" [ngClass]="{ active: formModal }" (click)="closeModal($event)">
+  <div class="modal-dialog" role="dialog" style="width: 800px">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="col-md-12">
+          <div class="card-title-container">
+            <h5 class="card-title">Edit parameter</h5>
+          </div>
+          <div class="col-md-2 dialog-close-btn-container">
+            <button type="button" class="close" data-dismiss="modal" (click)="formModal = false"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-body modal-height">
+        <div class="row">
+          <div class="col-md-5">
+            <label class="form-label">Name</label>
+          </div>
+          <div class="col-md-7">
+            <div class="form-group">
+              <input type="text" class="form-control" [(ngModel)]="parameter.componentParameterName"/>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <label class="form-label">Unit</label>
+          </div>
+          <div class="col-md-7">
+            <div class="form-group">
+              <input type="text" class="form-control" [(ngModel)]="parameter.unit"/>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <label class="form-label">Value type</label>
+          </div>
+          <div class="col-md-7">
+            <!-- Drop Down -->
+            <div class="dropdown-select">
+              <select [(ngModel)]="parameter.valueTypeId" disabled>
+                <option *ngFor="let type of types; let i = index"
+                        [value]="type.componentTypeId">{{type.name}}</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <label class="form-label">Python param</label>
+          </div>
+          <div class="col-md-7">
+            <div class="form-group">
+              <input type="text" class="form-control" [(ngModel)]="parameter.pythonParam"/>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <label class="form-label">Description</label>
+          </div>
+          <div class="col-md-7">
+            <div class="form-group">
+              <textarea rows="5" [(ngModel)]="parameter.desctiption" class="form-control" maxlength="490"></textarea>
+            </div>
+          </div>
+        </div>
+        <!--Button-->
+        <div class="button-elem">
+          <div class="">
+            <a class="btnLogout" (click)="save()">Save</a>
+          </div>
+          <div class="button-cancel">
+            <a class="btnLogout" (click)="formModal = false">Cancel</a>
+          </div>
+        </div>
+<!--        <div class="row">-->
+<!--          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center size">-->
+<!--            <button-->
+<!--              pButton-->
+<!--              type="button"-->
+<!--              icon="fa fa-check"-->
+<!--              class="button-success p-button-rounded"-->
+<!--              (click)="save()"-->
+<!--            ></button>-->
+<!--            <p class="button-para-text">Accepted</p>-->
+<!--          </div>-->
+<!--        </div>-->
+      </div>
+    </div>
+  </div>
+</div>

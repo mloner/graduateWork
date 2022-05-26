@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_SelfCons_Title" xml:space="preserve">
+        <value />
+    </data>
+    <data name="PieChart_Param1" xml:space="preserve">
+        <value />
+    </data>
+    <data name="PieChart_Param2" xml:space="preserve">
+        <value />
+    </data>
+    <data name="Chart_SelfConsChartRef_Title" xml:space="preserve">
+        <value />
+    </data>
+    <data name="Chart_SelfConsChartAlt_Title" xml:space="preserve">
+        <value />
+    </data>
+    <data name="Chart_SelfConsChartMain_Title" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_PeakShav_Title" xml:space="preserve">
+        <value />
+    </data>
+    <data name="PeakShavAvgDayMultuComp_PeakRef" xml:space="preserve">
+        <value />
+    </data>
+    <data name="PeakShavAvgDayMultuComp_PeakAlt" xml:space="preserve">
+        <value />
+    </data>
+    <data name="PeakShavAvgDayMultuComp_PeakMain" xml:space="preserve">
+        <value />
+    </data>
+    <data name="PeakShavAvgDayMultuComp_SeriesRef" xml:space="preserve">
+        <value />
+    </data>
+    <data name="PeakShavAvgDayMultuComp_SeriesAlt" xml:space="preserve">
+        <value />
+    </data>
+    <data name="PeakShavAvgDayMultuComp_SeriesMain" xml:space="preserve">
+        <value />
+    </data>
+    <data name="Chart_PeakShavAvgDayMultuComp_Title" xml:space="preserve">
+        <value />
+    </data>
+    <data name="PieChart_Prod" xml:space="preserve">
+        <value />
+    </data>
+    <data name="PieChart_SelfCons" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_BuySellEn_Title" xml:space="preserve">
+        <value />
+    </data>
+    <data name="Table_BuySellEn_Ref_Header" xml:space="preserve">
+        <value />
+    </data>
+    <data name="Table_BuySellEn_Alt_Header" xml:space="preserve">
+        <value />
+    </data>
+    <data name="Table_BuySellEn_Main_Header" xml:space="preserve">
+        <value />
+    </data>
+    <data name="Table_BuySellEn_LowestBuy" xml:space="preserve">
+        <value />
+    </data>
+    <data name="Table_BuySellEn_HighestSell" xml:space="preserve">
+        <value />
+    </data>
+    <data name="Table_BuySellEn_TotalBuy" xml:space="preserve">
+        <value />
+    </data>
+    <data name="Table_BuySellEn_TotalSell" xml:space="preserve">
+        <value />
+    </data>
+    <data name="Table_BuySellEn_TotalMonthlyCost" xml:space="preserve">
+        <value />
+    </data>
+</root>

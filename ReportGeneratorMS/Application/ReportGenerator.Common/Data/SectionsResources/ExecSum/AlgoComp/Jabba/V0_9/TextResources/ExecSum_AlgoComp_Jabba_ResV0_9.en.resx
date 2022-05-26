@@ -1,0 +1,122 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="ReportHeader" xml:space="preserve">
+        <value>Simulation report</value>
+    </data>
+    <data name="ReportSubheader" xml:space="preserve">
+        <value>Reduce Capacity Tariff with Smart Peak Shaving</value>
+    </data>
+    <data name="BasicInfoTitle" xml:space="preserve">
+        <value>Basic info</value>
+    </data>
+    <data name="BasicInfo_BuildingName" xml:space="preserve">
+        <value>Building name</value>
+    </data>
+    <data name="BasicInfo_Email" xml:space="preserve">
+        <value>Email</value>
+    </data>
+    <data name="BasicInfo_ReportDate" xml:space="preserve">
+        <value>Report date</value>
+    </data>
+    <data name="BasicInfo_SimulationPeriod" xml:space="preserve">
+        <value>Simulation period</value>
+    </data>
+    <data name="BasicInfo_SimulatedDaysNumer" xml:space="preserve">
+        <value>Simulated days</value>
+    </data>
+    <data name="BasicInfo_BatteryModel" xml:space="preserve">
+        <value>Battery model</value>
+    </data>
+    <data name="BasicInfo_BatteryCapacity" xml:space="preserve">
+        <value>Battery capacity</value>
+    </data>
+    <data name="CommonDataObj_Desc1" xml:space="preserve">
+        <value>Upgrading to Smart Peak Shaving would yield an {b}additional savings of € [Value] / month over the simulated period.{/b} Want to know how? In this report you will find the detailed explanation.</value>
+    </data>
+    <data name="CommonDataObj_Desc2" xml:space="preserve">
+        <value>{b}Your [BatteryModel] home battery is completely ready for this.{/b} When the capacity rate is effectively introduced, you can register for the Smart Peak Shaving service from  [CompanyName] energy.</value>
+    </data>
+    <data name="CommonDataObj_PeakShavingExpl_Title" xml:space="preserve">
+        <value>CASE FOR SMART PEAK SHAVING </value>
+    </data>
+    <data name="CommonDataObj_CapacityTariffExpl_Title" xml:space="preserve">
+        <value>Capacity tariff introduction</value>
+    </data>
+    <data name="CommonDataObj_CapacityTariffExpl_1" xml:space="preserve">
+        <value>Distribution networks will be used more and differently in the future, partly due to more {b}local renewable energy{/b}, more electric vehicles and more heat pumps. In addition, they will be exposed to larger, simultaneous peak loads.</value>
+    </data>
+    <data name="CommonDataObj_CapacityTariffExpl_2" xml:space="preserve">
+        <value>These peak loads can result in the distribution system operators having to make {b}heavy investments to keep the network reliable{/b}, which can lead to a sharp increase in distribution network tariffs. To avoid this, the grid operators want to make households and companies aware that high peaks in their consumption can entail extra costs for the grid and encourage them to use the grid more efficiently.</value>
+    </data>
+    <data name="CommonDataObj_CapacityTariffExpl_3" xml:space="preserve">
+        <value>The distribution network tariffs will therefore be partly charged from mid-2022 via a {b}capacity tariff{/b}.</value>
+    </data>
+    <data name="CommonDataObj_NetCostExpl_Title" xml:space="preserve">
+        <value>Net cost </value>
+    </data>
+    <data name="CommonDataObj_NetCostExpl_1" xml:space="preserve">
+        <value>The electricity bill consists of several components. The distribution network rates are the rates you pay to get energy to your home or to your company or organization. Everyone connected to the electricity distribution network pays distribution network rates to Fluvius.</value>
+    </data>
+    <data name="CommonDataObj_NetCostExpl_2" xml:space="preserve">
+        <value>Part of those distribution network tariffs cover the network costs. These are the costs of installing, maintaining and managing the grids and the transport of electricity. It is to these network costs that the capacity tariff is applied.</value>
+    </data>
+    <data name="CommonDataObj_NetCostExpl_3" xml:space="preserve">
+        <value>For an average family, these costs {b} comprise about 21% of the current electricity bill{\b}.</value>
+    </data>
+    <data name="CommonDataObj_NetCostExpl_4" xml:space="preserve">
+        <value>The capacity rate is therefore not an extra rate, but a different way of charging. The majority of the electricity bill will remain kWh-based even after the introduction of the capacity tariff. So economical use of electricity continues to pay off.</value>
+    </data>
+    <data name="CommonDataObj_AddCostExpl_Title" xml:space="preserve">
+        <value>Additional cost</value>
+    </data>
+    <data name="CommonDataObj_AddCostExpl_1" xml:space="preserve">
+        <value>The capacity tariff is charged on the basis of the {b}'average monthly peak'{/b} (kW).</value>
+    </data>
+    <data name="CommonDataObj_AddCostExpl_2" xml:space="preserve">
+        <value>The highest quarterly power (or 'peak power') is measured every month, the quarter in which the highest average power is required from the grid.</value>
+    </data>
+    <data name="CommonDataObj_AddCostExpl_3" xml:space="preserve">
+        <value>This means that if you are economical throughout the month, but at a certain moment have a number of different appliances running at the same time, the peak power for that month can still be high. This can be balanced in the other months, because the average of the 12 monthly peaks determines how much capacity tariff someone has to pay in a year.</value>
+    </data>
+    <data name="CommonDataObj_AddCostExpl_4" xml:space="preserve">
+        <value>This is registered by the digital meter. It does not matter how often - during 1 or more quarters - you have used this peak power. If 12 months of measurement data are not yet available, e.g. after the replacement of a traditional meter by a digital meter, the average monthly peak is calculated on the basis of all available monthly peaks.</value>
+    </data>
+    <data name="CommonDataObj_AddCostExpl_5" xml:space="preserve">
+        <value>If a monthly peak is less than 2.5 kW, a {b} minimum value of 2.5 kW{/b} is assumed for that month. As a result, everyone will pay a minimum annual contribution to the grid costs. This contribution is equal to 2.5 kW multiplied by the rate for the average monthly peak.</value>
+    </data>
+    <data name="CommonDataObj_AddCostExpl_6" xml:space="preserve">
+        <value>To be clear: the quarter hour power is the average power over a quarter of an hour. So if you use 10 kW for the first five minutes during 15 minutes, and then use 5 kW for 10 minutes, your quarter-hour peak is equal to 6.7 kW.</value>
+    </data>
+    <data name="CommonDataObj_AddCostExpl_7" xml:space="preserve">
+        <value>The exact rate {b} has not yet been determined, but the amount of €4 per month per kW above 2.5 kW{/b} is currently circulating. So for a monthly peak of 10 kW you would pay 10 – 2.5 = 7.5 kW x €4 / kW, or 30 EUR per month extra.</value>
+    </data>
+    <data name="CommonDataObj_SmartPeakShavingExpl_1" xml:space="preserve">
+        <value>What can you do to avoid extra costs from peak tax? You can of course change your behavior and spread the use of energy guzzlers as much as possible, so that your {b}peaks decrease{/b}.</value>
+    </data>
+    <data name="CommonDataObj_SmartPeakShavingExpl_2" xml:space="preserve">
+        <value>This can often be (semi) automated and without sacrificing comfort. For example, by setting the charging capacity of the charging point of your electric car as low as possible, but still just high enough so that your car is fully charged again in the morning. Or by programming the delay start function of your dishwasher in such a way that your appliance is activated when your solar panels are producing well.</value>
+    </data>
+    <data name="CommonDataObj_SmartPeakShavingExpl_3" xml:space="preserve">
+        <value>Another option is of course to (partly) absorb peak loads with your home battery. This will smooth out your peak consumption. We call this {b}'peak shaving'{/b}.</value>
+    </data>
+    <data name="CommonDataObj_SmartPeakShavingExpl_4" xml:space="preserve">
+        <value>Smart peak shaving is of course important, so that your home battery does not simply intervene immediately and always. For example, you risk that your home battery is already empty just when the peak that will matter that month is approaching.</value>
+    </data>
+    <data name="CommonDataObj_SmartPeakShavingExpl_5" xml:space="preserve">
+        <value>Deploying your home battery for peak shaving comes at a cost, so any battery decision should be considered. The smart peak shaving function of the [CompanyName] platform will weigh up at any time: is it useful to use a Wh from your home battery to smooth out a peak, or is it better to save the same Wh to use later? for a bigger peak or to increase your self-consumption?</value>
+    </data>
+    <data name="CommonDataObj_SmartPeakShavingExpl_Title" xml:space="preserve">
+        <value>Smart Peak Shaving</value>
+    </data>
+</root>

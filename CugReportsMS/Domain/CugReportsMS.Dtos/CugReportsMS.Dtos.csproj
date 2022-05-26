@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>CugReportMicroservice.Dtos</RootNamespace>
+    </PropertyGroup>
+    
+
+    <ItemGroup>
+      <Folder Include="Exceptions\Generator" />
+    </ItemGroup>
+    
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\EcoSCADA.Common.ExceptionHandling\EcoSCADA.Common.ExceptionHandling.csproj" />
+      <ProjectReference Include="..\..\..\ReportGeneratorMS\ReportGeneratorMSClient\ReportGeneratorClient.Models\ReportGeneratorClient.Models.csproj" />
+    </ItemGroup>
+
+</Project>

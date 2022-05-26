@@ -1,0 +1,32 @@
+<!-- Form Modal -->
+<div class="modal" [ngClass]="{ active: formModal }" (click)="closeModal($event)">
+  <div class="modal-dialog" role="dialog" style="width: 800px">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="col-md-12">
+          <div class="card-title-container">
+            <h5 class="card-title">Caution</h5>
+          </div>
+          <div class="col-md-2 dialog-close-btn-container"></div>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md">
+            <label class="form-label text-justify">Attention! You have enabled the option to delete items in the database by uploaded file. In this mode, all components missing in the file will be automatically added to the deleted ones. Including, if there is a column "NotDelete" in the file, all components with the value of "False" are also deleted.</label>
+          </div>
+        </div>
+        <!--Button-->
+        <div class="row" style="padding: 2%;">
+          <div class="col-6 col-md-6 col-sm-6 col-lg-6">
+            <a class="btnLogout" (click)="accept()">Accept</a>
+          </div>
+          <div class="col-6 col-md-6 col-sm-6 col-lg-6">
+            <a class="btnLogout" (click)="cancel()">Cancel</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

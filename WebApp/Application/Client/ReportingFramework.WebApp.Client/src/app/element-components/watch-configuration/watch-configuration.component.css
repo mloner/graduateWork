@@ -1,0 +1,55 @@
+.two-card-element {
+  max-width: 49.5%;
+}
+
+.two-element-content {
+  max-height: 350px;
+  overflow: auto;
+  border: 2px solid #e7e8e8;
+  background: #f1f1f1;
+  font-size: 15px;
+}
+
+.two-elem {
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.myDiagram {
+  height: 350px;
+  border: 2px solid #e7e8e8;
+  background: #f1f1f1;
+}
+
+.button-elem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+.button-elem a{
+  width: 150px;
+}
+
+.button-cancel {
+  margin-left: 10px;
+}
+
+/*.button-cancel {*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  flex-wrap: wrap;*/
+/*  justify-content: center;*/
+/*}*/
+/*.button-cancel a{*/
+/*  width: 150px;*/
+/*}*/
+
+.modal-body-watch {
+  padding: 0px 20px 20px 20px!important;
+}
+
+.padding-content {
+  padding-bottom: 20px;
+}

@@ -1,0 +1,53 @@
+<button
+  class="button-primary"
+  pButton
+  type="button"
+  label="New Component type"
+  icon="fa fa-plus"
+  iconPos="left"
+  (click)="formModal = true"
+></button>
+
+<!-- Form Modal -->
+<div class="modal" [ngClass]="{ active: formModal }" (click)="closeModal($event)">
+  <div class="modal-dialog" role="dialog" style="width: 800px">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="col-md-12">
+          <div class="card-title-container">
+            <h5 class="card-title">New Component type</h5>
+          </div>
+          <div class="col-md-2 dialog-close-btn-container">
+            <button type="button" class="close" data-dismiss="modal" (click)="formModal = false"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+            <label class="form-label">Name</label>
+          </div>
+          <div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7">
+            <div class="form-group">
+              <input type="text" class="form-control" [(ngModel)]="type.name"/>
+            </div>
+          </div>
+        </div>
+        <!--Filter-->
+        <div class="">
+          <label class="form-label" for="parent"><input id="parent" type="checkbox" [checked]="type.haveParent" (change)="clickFlagParent()"> Allow have a parent</label>
+        </div>
+        <!--Button-->
+        <div class="button-elem">
+          <div class="">
+            <a class="btnLogout" (click)="save()">Save</a>
+          </div>
+          <div class="button-cancel">
+            <a class="btnLogout" (click)="formModal = false">Cancel</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

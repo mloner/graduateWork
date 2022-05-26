@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>ChartGenerator.Host</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Charts" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Charts\AverageHourly_.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Application\ChartGenerator\ChartGenerator.csproj" />
+      <ProjectReference Include="..\..\ChartGeneratorMSClient\ChartGeneratorMSClient.Models\ChartGeneratorMSClient.Models.csproj" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <IsTransformWebConfigDisabled>true</IsTransformWebConfigDisabled>
+    </PropertyGroup>
+
+</Project>

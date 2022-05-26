@@ -1,0 +1,46 @@
+﻿{
+  "ReportType": 0,
+  "Template": {},
+  "TemplateFilePath": "C:\\Users\\M2-21015-001\\r\\ReportingFramework\\Tests\\bin\\Debug\\netcoreapp2.1\\ExcelTemplates\\InputGapsReport.xlsx",
+  "Sections": [
+    {
+      "Name": 0,
+      "Data": {
+        "$type": "ReportingFramework.Dto.ReportStructure.Section.SectionData.ExcelSectionData.InputGapsReport.CugGapsInputErrorsSection.CugGapsInputErrorsSectionData, ReportingFramework.Dto",
+        "CugName": "Cordium",
+        "TableData": {
+          "Items": [
+            {
+              "BuildingName": "Cordium Staging",
+              "AimrId": "39686",
+              "AimrName": "ADS01:NAE02",
+              "AimrType": "Virtual",
+              "InputId": "118944",
+              "Medium": "test",
+              "InputName": "Fase 3 - WW__PROD.Alarm ketels",
+              "LastValueTimestamp": "12/11/2020 8:03:00 PM",
+              "LastValue": "1",
+              "GateTime": "15 min.",
+              "Description": "ADS01:NAE02/FCB.002AFEC009.SW01.SW01_AVAIBLE.Present Value no-units Other "
+            },
+            {
+              "BuildingName": "Cordium Staging",
+              "AimrId": "39686",
+              "AimrName": "ADS01:NAE02",
+              "AimrType": "Virtual",
+              "InputId": "118944",
+              "Medium": "test",
+              "InputName": "Fase 3 - WW__PROD.Alarm ketels",
+              "LastValueTimestamp": "12/11/2020 8:03:00 PM",
+              "LastValue": "1",
+              "GateTime": "15 min.",
+              "Description": "ADS01:NAE02/FCB.002AFEC009.SW01.SW01_AVAIBLE.Present Value no-units Other "
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "ReportName": "iLeco_report",
+  "OutputFolder": "C:\\Users\\M2-21015-001\\r\\ReportingFramework\\Tests\\bin\\Debug\\netcoreapp2.1\\\\Reports\\iLeco"
+}

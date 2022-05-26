@@ -1,0 +1,23 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="CommonDataObj_Desc1" xml:space="preserve">
+        <value>With [CompanyName] Smart Peak Shaving algorithm you would realize an {b} additional saving of €[Price]/month{\b} over the simulated period of one month.</value>
+    </data>
+    <data name="CommonDataObj_Desc2" xml:space="preserve">
+        <value>Your [BatteryName] home battery is fully ready for this. When the capacity tariff is effectively introduced, you can register for the Smart Peak Shaving service from [CompanyName] energy.</value>
+    </data>
+    <data name="Title" xml:space="preserve">
+        <value>CONCLUSION</value>
+    </data>
+</root>

@@ -1,0 +1,68 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Dynamische tarieven</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>Door de groeiende hoeveelheden wind- en zonne-energie op de Europese elektriciteitsnetten beginnen de prijzen van elektriciteit op de handelsmarkten steeds beweeglijker te worden. Op mooie zomerdagen is de elektriciteitsprijs door overaanbod daardoor al regelmatig zelfs negatief! Grote bedrijven en specialistische ondernemingen maken hier al jaren gebruik van door op de juiste momenten stroom in te kopen of te produceren.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2" xml:space="preserve">
+        <value>Via [CompanyName] kunnen ook consumenten een elektriciteitscontract afsluiten op basis van deze zogenaamde dynamische elektriciteitstarieven. Dit contract volgt ieder kwartier de groothandelsmarkt voor elektriciteit. Dit betekent dat je jouw batterij (en/of elektrische auto) kunt opladen als de prijzen negatief zijn. In dat geval betaal je nog altijd je belastingen, maar de kilowattuurprijs kan tot wel 15 cent lager liggen.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3" xml:space="preserve">
+        <value>Met aansturing van [CompanyName] zal je batterij automatisch reageren op deze prijsontwikkelingen en dat kan zeer voordelige situaties opleveren. Het hele systeem werkt op basis van weersvoorspelling en dus de voorspelling van je productie, de voorspelling van jouw verbruik en de 24 uur vooraf bekende elektriciteitsprijs (de zogeheten “day-ahead” prijs).</value>
+    </data>
+    <data name="CommonDataObj_Desc_4" xml:space="preserve">
+        <value>[CompanyName] doet dit volledig automatisch, je hoeft hier dus zelf helemaal niets voor te doen.</value>
+    </data>
+    <data name="Image_DynTarExpl_1_Title" xml:space="preserve">
+        <value>Elektriciteitsprijs 11 februari 2021 (€/MWh)</value>
+    </data>
+    <data name="Image_DynTarExpl_2_Title" xml:space="preserve">
+        <value>Elektriciteitsprijs 8 augustus 2021 (€/MWh)</value>
+    </data>
+    <data name="CommonDataObj_Desc_5" xml:space="preserve">
+        <value>We geven drie voorbeelden hoe we deze dynamische tarieven met een thuisbatterij kunnen gebruiken:</value>
+    </data>
+    <data name="CommonDataObj_Ex_1_Title" xml:space="preserve">
+        <value>Voorbeeld 1:</value>
+    </data>
+    <data name="CommonDataObj_Ex_1_1" xml:space="preserve">
+        <value>Je hebt een batterij die op een goede dag geheel gevuld wordt en die je ’s avonds weer leeg-verbruikt. De weersvoorspellingen laten echter zien dat de batterij op de komende dag niet vol zal geraken. Dat zou dus betekenen dat je de daaropvolgende avond en nacht toch weer stroom van het net zou moet kopen.</value>
+    </data>
+    <data name="CommonDataObj_Ex_1_2" xml:space="preserve">
+        <value>Echter, in de vroege ochtend van deze “slecht weer dag” zijn de prijzen erg laag. Veel lager dan op de avond wanneer je je grootste verbruik hebt. De batterij krijgt dan in de vroege ochtend het commando om al deels op te laden met stroom tegen dit lage tarief. In de middag wordt dit aangevuld met je eigen opwek. In de avond koop je dan geen dure stroom meer aan, maar gebruik je je eigen opwek plus de stroom die je de nacht voordien tegen een laag tarief hebt gekocht.</value>
+    </data>
+    <data name="CommonDataObj_Ex_2_Title" xml:space="preserve">
+        <value>Voorbeeld 2:</value>
+    </data>
+    <data name="CommonDataObj_Ex_2_1" xml:space="preserve">
+        <value>Data analyse laat het patroon zien dat je altijd op zaterdagmorgen veel elektriciteit verbruikt. Wellicht is het je gewoonte om dan de was te doen. [CompanyName] gaat met dat verbruikspatroon rekening houden.</value>
+    </data>
+    <data name="CommonDataObj_Ex_2_2" xml:space="preserve">
+        <value>De stroom die je ’s morgens verbruikt koop je immers in, want op vrijdag avond en nacht had je je batterij al leeg-verbruikt. De batterij krijgt dan in de vroege zaterdag ochtend het commando vol te laden voor jouw wasbeurten. Op zaterdag direct na de middag laadt de batterij zich dan een tweede keer vol van de zonnepanelen. Je batterij wordt zo 2 keer gebruikt tijdens een etmaal en niet één keer zoals standaard het geval zou zijn.</value>
+    </data>
+    <data name="CommonDataObj_Ex_3_1" xml:space="preserve">
+        <value>Een batterij kan in de winter weinig doen om zelf geproduceerde zonnestroom op te slaan. Op de meeste dagen zal de beperkte hoeveelheid zonnestroom direct worden verbruikt. Maar de batterij kan wel gebruik maken van dynamische tarieven. Ook in dit voorbeeld kan de batterij op het beste moment stroom in kopen. Zo is je batterij 12 maanden aan het werk en niet slechts in de 7 tot 8 zonnige maanden.</value>
+    </data>
+    <data name="CommonDataObj_Ex_3_Title" xml:space="preserve">
+        <value>Voorbeeld 3:</value>
+    </data>
+    <data name="CommonDataObj_Desc_6" xml:space="preserve">
+        <value>In het besparingsoverzicht vooraan in dit rapport zie je welk verschil in besparing en terugverdientijd het oplevert als je de batterij op de [CompanyName] manier harder voor je laat werken.</value>
+    </data>
+    <data name="CommonDataObj_Desc_7" xml:space="preserve">
+        <value>Meer informatie over dynamische tarieven vindt u op https://bliq.energy/inschrijven</value>
+    </data>
+</root>

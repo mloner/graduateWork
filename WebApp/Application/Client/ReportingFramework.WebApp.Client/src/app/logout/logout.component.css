@@ -1,0 +1,57 @@
+.logout-component {
+    background: #1C4167!important;
+    height: 100vh;
+    padding-top: 15rem;
+    padding-bottom: 1.5rem;
+}
+
+.logout-component .row,
+.login-card .row {
+    padding-bottom: 0px!important;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.img-login {
+    position: relative;
+    /* height: 100vh; */
+    background-size: cover;
+    background-position: right bottom;
+    background-image: url('../../assets/images/Bg-Login.png');
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.logout-heading {
+    padding: 25px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #1C4167;
+}
+
+.language-toggle {
+    cursor: pointer;
+    padding: 5px;
+    float: right;
+    border: 1px solid #1C4167;
+    background: #1C4167;
+    color: #FFFFFF!important;
+}
+
+.logout-component .p-text {
+    padding: 25px;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 17px;
+    color: #1C4167;
+    text-align: left;
+}
+
+.logout-component .p-text-2 {
+    padding: 0px 25px;
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 17px;
+    color: #1C4167;
+}

@@ -1,0 +1,279 @@
+﻿{
+  "Template": {
+    "SectionTypeTemplates": [
+      {
+        "Name": 0,
+        "Margins": {
+          "Top": 0.0,
+          "Bottom": 0.0,
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "BackgroundImage": "C:\\Users\\M2-21015-001\\r\\ReportingFramework\\Tests\\bin\\Debug\\netcoreapp2.1\\Images\\Companies\\Bliq\\Backgrounds\\Titul.png"
+      },
+      {
+        "Name": 1,
+        "Margins": {
+          "Top": 4.8,
+          "Bottom": 2.1,
+          "Left": 2.0,
+          "Right": 2.5
+        },
+        "BackgroundImage": "C:\\Users\\M2-21015-001\\r\\ReportingFramework\\Tests\\bin\\Debug\\netcoreapp2.1\\Images\\Companies\\Bliq\\Backgrounds\\Default.png",
+        "Header": {
+          "HeaderType": 0
+        },
+        "Footer": {
+          "FooterType": 0,
+          "ShowLine": false
+        },
+        "Title": {
+          "TitleType": 4
+        }
+      },
+      {
+        "Name": 2,
+        "Margins": {
+          "Top": 4.8,
+          "Bottom": 2.1,
+          "Left": 2.0,
+          "Right": 2.5
+        },
+        "BackgroundImage": "C:\\Users\\M2-21015-001\\r\\ReportingFramework\\Tests\\bin\\Debug\\netcoreapp2.1\\Images\\Companies\\Bliq\\Backgrounds\\Appendix.png",
+        "Header": {
+          "HeaderType": 0
+        },
+        "Footer": {
+          "FooterType": 0,
+          "ShowLine": false
+        },
+        "Title": {
+          "TitleType": 5
+        }
+      },
+      {
+        "Name": 3,
+        "Margins": {
+          "Top": 4.8,
+          "Bottom": 2.1,
+          "Left": 2.0,
+          "Right": 2.5
+        },
+        "BackgroundImage": "C:\\Users\\M2-21015-001\\r\\ReportingFramework\\Tests\\bin\\Debug\\netcoreapp2.1\\Images\\Companies\\Bliq\\Backgrounds\\Appendix.png",
+        "Header": {
+          "HeaderType": 0
+        },
+        "Footer": {
+          "FooterType": 0,
+          "ShowLine": false
+        },
+        "Title": {
+          "TitleType": 6
+        }
+      }
+    ],
+    "GlobalSettings": {
+      "DecimalSeparator": ",",
+      "ThousandsSeparator": ".",
+      "Variables": {
+        "AppendixName": "Appendix",
+        "FigureName": "Figure",
+        "FigureShortName": "Fig."
+      }
+    },
+    "Styles": [
+      {
+        "Name": "TitulHeader",
+        "Alignment": 3,
+        "LineSpace": 1.0,
+        "SpaceAfter": 0.0,
+        "Font": {
+          "Name": "averta",
+          "Size": 36.0,
+          "Color": "0,31,78",
+          "Bold": true
+        }
+      },
+      {
+        "Name": "TitulSubheader",
+        "Alignment": 3,
+        "LineSpace": 1.0,
+        "SpaceAfter": 0.0,
+        "Font": {
+          "Name": "averta",
+          "Size": 16.0,
+          "Color": "0,31,78"
+        }
+      },
+      {
+        "Name": "BliqSectionTitle",
+        "Alignment": 0,
+        "LineSpace": 1.0,
+        "SpaceAfter": 0.0,
+        "Font": {
+          "Name": "averta",
+          "Size": 26.0,
+          "Color": "255,255,255",
+          "Bold": true
+        }
+      },
+      {
+        "Name": "Title",
+        "Alignment": 0,
+        "LineSpace": 1.0,
+        "SpaceAfter": 0.2,
+        "Font": {
+          "Name": "averta",
+          "Size": 16.0,
+          "Color": "0,31,78",
+          "Bold": true
+        }
+      },
+      {
+        "Name": "H1",
+        "Alignment": 0,
+        "LineSpace": 1.0,
+        "SpaceAfter": 0.0,
+        "Font": {
+          "Name": "averta",
+          "Size": 16.0,
+          "Color": "0,31,78",
+          "Bold": true
+        }
+      },
+      {
+        "Name": "H2",
+        "Alignment": 0,
+        "LineSpace": 1.0,
+        "SpaceAfter": 0.0,
+        "Font": {
+          "Name": "averta",
+          "Size": 12.0,
+          "Color": "0,31,78",
+          "Bold": true
+        }
+      },
+      {
+        "Name": "H3",
+        "Alignment": 0,
+        "LineSpace": 1.0,
+        "SpaceAfter": 0.0,
+        "Font": {
+          "Name": "averta",
+          "Size": 10.0,
+          "Color": "0,31,78",
+          "Bold": true
+        }
+      },
+      {
+        "Name": "Normal",
+        "Alignment": 2,
+        "LineSpace": 1.1,
+        "SpaceAfter": 0.0,
+        "Font": {
+          "Name": "averta",
+          "Size": 11.0,
+          "Color": "0,0,0"
+        }
+      },
+      {
+        "Name": "Header",
+        "Alignment": 2,
+        "LineSpace": 1.0,
+        "SpaceAfter": 0.0,
+        "Font": {
+          "Name": "averta",
+          "Size": 10.0,
+          "Color": "0,31,78"
+        }
+      },
+      {
+        "Name": "Footer",
+        "Alignment": 2,
+        "LineSpace": 1.0,
+        "SpaceAfter": 0.0,
+        "Font": {
+          "Name": "averta",
+          "Size": 10.0,
+          "Color": "0,31,78"
+        }
+      },
+      {
+        "Name": "ImageTitle",
+        "Alignment": 3,
+        "LineSpace": 1.0,
+        "SpaceAfter": 0.0,
+        "Font": {
+          "Name": "averta",
+          "Size": 10.0,
+          "Color": "0,31,78"
+        }
+      }
+    ]
+  },
+  "Sections": [
+    {
+      "Name": 0,
+      "Style": 0,
+      "Data": {
+        "$type": "ReportingFramework.Dto.ReportStructure.Section.SectionData.PdfSectionData.TitulSectionData.TitulSectionData, ReportingFramework.Dto",
+        "Header": "Battery advice report",
+        "Subheader": "Familie van de Poel",
+        "Date": "22-07-2021"
+      }
+    },
+    {
+      "Name": 4,
+      "Style": 1,
+      "Data": {
+        "$type": "ReportingFramework.Dto.ReportStructure.Section.SectionData.PdfSectionData.SensitivityMatrixSectionData.SensitivityMatrixSectionData, ReportingFramework.Dto",
+        "Description": "The payback period is the time it takes to return the investment based on the savings obtained by an offered project. The investment is the @color\u003d249,169,173;bold\u003dtrue{red} (negative) bar in the chart. The @color\u003d111,147,178;bold\u003dtrue{blue} bars are the annual savings. The cashflow is based on the most optimal case scenario from the simulation.",
+        "SensitivityMatrixChart": {
+          "Title": "Sensitivity matrix chart title",
+          "ChartType": 0,
+          "ChartData": {
+            "$type": "ChartGenerator.Charts.SensiticityMatrixChart.SensitivityMatrixChartData, ChartGenerator",
+            "XAxis": [
+              "1",
+              "2",
+              "3"
+            ],
+            "YAxis": [
+              "4",
+              "5",
+              "6"
+            ],
+            "Values": [
+              [
+                1.0,
+                2.0,
+                1.0
+              ],
+              [
+                1.0,
+                3.0,
+                4.0
+              ],
+              [
+                1.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "ChartSettings": {
+            "$type": "ChartGenerator.Charts.SensiticityMatrixChart.SensitivityMatrixChartSettings, ChartGenerator",
+            "ShowLegend": false,
+            "TranslationStrings": {
+              "FeedInInjectionTariff": "Feed-in injection tariff",
+              "ElectricityPriceInflation": "Electricity price inflation"
+            }
+          }
+        },
+        "Title": "Sensitivity matrix section"
+      }
+    }
+  ],
+  "ReportName": "Bliq_report",
+  "OutputFolder": "C:\\Users\\M2-21015-001\\r\\ReportingFramework\\Tests\\bin\\Debug\\netcoreapp2.1\\\\Reports\\Bliq"
+}

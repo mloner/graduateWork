@@ -1,0 +1,53 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Battery subsidy</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>To encourage the use of home batteries, the Flemish government offers a premium to those who buy or lease a home battery. The current premium can be requested until the end of 2021. It will gradually decrease from next year. Below is a table with the amounts. These have been included in your analysis.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2" xml:space="preserve">
+        <value>More information about the battery premium can be found at: {link}https://www.vlaanderen.be/premie-voor-deaankoop-of-leasing-van-een-thuismetaal-voor-zelf-opgewekte-energie{/link}.</value>
+    </data>
+    <data name="Table_Yearly_Subsidies_Date" xml:space="preserve">
+        <value>Date</value>
+    </data>
+    <data name="Table_Yearly_Subsidies_From0to4" xml:space="preserve">
+        <value>0 to 4 kWh</value>
+    </data>
+    <data name="Table_Yearly_Subsidies_From4to6" xml:space="preserve">
+        <value>4 to 6 kWh</value>
+    </data>
+    <data name="Table_Yearly_Subsidies_From6to9" xml:space="preserve">
+        <value>6 to 9 kWh</value>
+    </data>
+    <data name="Table_Yearly_Subsidies_From9" xml:space="preserve">
+        <value>&gt; 9 kWh</value>
+    </data>
+    <data name="Table_Yearly_Subsidies_Maximum" xml:space="preserve">
+        <value>Maximum</value>
+    </data>
+    <data name="Table_Yearly_Subsidies_Maximum_CellData" xml:space="preserve">
+        <value>[Price], max [Percent]% of the invoice incl. VAT</value>
+    </data>
+    <data name="BatterySubsidy_BatteryPriceWithSubsidy" xml:space="preserve">
+        <value>Batteries price with subsidies</value>
+    </data>
+    <data name="BatterySubsidy_BatteryPrice" xml:space="preserve">
+        <value>Batteries price</value>
+    </data>
+    <data name="Chart_BatterySubsidy_Title" xml:space="preserve">
+        <value>Investment after deduction of battery subsidy</value>
+    </data>
+</root>

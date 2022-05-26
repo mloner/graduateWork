@@ -1,0 +1,149 @@
+<div class="config-buildings-component">
+  <!-- Breadcrumb Card -->
+  <div class="row">
+    <div class="col-md-4">
+      <div class="breadcrumb-card">
+        <p class="breadcrumb-text">
+          Equipment metadata configuration <i class="fa fa-angle-right"></i> Buildings
+          <i class="fa fa-angle-right"></i>
+          <span class="section-text"> Buildings list</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!--Equipment card-->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <h1>Buildings list</h1>
+        <div class="active-row mb-4">
+          <button routerLink=""
+                  class="button-primary"
+                  pButton
+                  type="button"
+                  label="Add buildings"></button>
+          <button routerLink=""
+                  class="button-primary ml-4"
+                  pButton
+                  type="button"
+                  label="Add schedule"></button>
+        </div>
+        <!--Table Primeng-->
+        <div>
+          <div *ngIf="buildings.length > 0" class="">
+            <p-table #dt4 [value]="config" (sortFunction)="customSort($event)" [customSort]="true" styleClass="p-datatable-sm p-datatable-gridlines"
+                     [paginator]="true" [rows]="5" [showCurrentPageReport]="true" responsiveLayout="scroll" [totalRecords]="config.length"
+                     currentPageReportTemplate="Showing {first} to {last} of {{config.length}} entries" [rowsPerPageOptions]="[5,10,25]"
+                     [scrollable]="true" scrollDirection="horizontal"
+                     [globalFilterFields]="['name']">
+              <ng-template pTemplate="caption">
+                <div class="flex justify-content-end d-flex">
+                <span class="p-input-icon-left ml-auto">
+                    <i class="pi pi-search"></i>
+                    <input pInputText type="text" class="search-input" (input)="dt4.filterGlobal(getEventValue($event), 'contains')" placeholder="Search keyword" />
+                </span>
+                </div>
+              </ng-template>
+              <ng-template pTemplate="header">
+                <tr>
+                  <th class="sizeCheck">
+                    <label class="d-flex justify-content-center" for="valid">
+                      <input id="valid" type="checkbox" [checked]="checkBuild" (change)="clickCheckBuild()">
+                    </label>
+                  </th>
+                  <th class="sizeRow"><h2>Name building </h2></th>
+                  <th class="sDiagram"><h2>Energy system template </h2></th>
+                  <th class="sDiagram"><h2>Scenario template </h2></th>
+                  <th class="sActive"><h2>Active </h2></th>
+                </tr>
+              </ng-template>
+              <ng-template pTemplate="body" let-configuration let-index="rowIndex">
+                <tr>
+                  <td class="para-text sizeCheck">
+                    <label class="d-flex justify-content-center" for="build_{{configuration.buildId}}">
+                    <input id="build_{{configuration.buildId}}" type="checkbox" [(ngModel)]="configuration.check">
+                    </label>
+                  </td>
+                  <td class="para-text sizeRow">{{configuration.name}}</td>
+                  <td class="sDiagram">
+                    <ng-container *ngIf="configuration.energySystem.length == 0">
+                      <label class="para-text">Not set energy system template:</label>
+                      <div class="active-row">
+                        <button
+                                class="button-primary"
+                                pButton
+                                type="button"
+                                label="Select"></button>
+                        <button
+                                class="button-primary ml-4"
+                                pButton
+                                type="button"
+                                label="Create"></button>
+                      </div>
+                    </ng-container>
+                    <ng-container *ngIf="configuration.energySystem.length > 0">
+                      Diagram
+                    </ng-container>
+                  </td>
+                  <td class="sDiagram">
+                    <ng-container *ngIf="configuration.scenario.length == 0">
+                      <label class="para-text">Not set scenarios template:</label>
+                      <div class="active-row">
+                        <button
+                                class="button-primary"
+                                pButton
+                                type="button"
+                                label="Select"></button>
+                        <button
+                                class="button-primary ml-4"
+                                pButton
+                                type="button"
+                                label="Create"></button>
+                      </div>
+                    </ng-container>
+                    <ng-container *ngIf="configuration.scenario.length > 0">
+                      Scenario
+                    </ng-container>
+                  </td>
+                  <td class="sActive">
+                    <div class="active-row d-flex flex-column">
+                      <div class="active-text">
+                        <a class="">Edit energy system template</a>
+                        <i class="fa fa-pencil ml-2"></i>
+                      </div>
+                      <div class="active-text">
+                        <a class="">Edit scenarios template</a>
+                        <i class="fa fa-pencil ml-2"></i>
+                      </div>
+                      <div class="active-text">
+                        <a class="">Download json</a>
+                        <i class="fa fa-upload ml-2"></i>
+                      </div>
+                      <div class="active-text">
+                        <a class="">Delete</a>
+                        <i class="fa fa-trash ml-2"></i>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </ng-template>
+<!--              <ng-template pTemplate="emptymessage">-->
+<!--                <tr>-->
+<!--                  <td colspan="5">No elements found.</td>-->
+<!--                </tr>-->
+<!--              </ng-template>-->
+            </p-table>
+            <div>
+              <label></label>
+            </div>
+          </div>
+          <div *ngIf="buildings.length == 0">
+            <label class="form-label pl-0">No buildings</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

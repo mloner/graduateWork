@@ -1,0 +1,62 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Batterij advies rapport</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>De energiemarkt is volop in beweging en als zonnepanelenbezitter kun je hier nu nog meer profijt van hebben door het toevoegen van een batterij aan je installatie. Dit adviesrapport is een advies op basis van jouw persoonlijke situatie. Voor een andere woning, met een ander elektriciteitsprofiel kan dit anders zijn.</value>
+    </data>
+    <data name="LocationInfo_ConsumptionInfo_Consumption" xml:space="preserve">
+        <value>Jaarverbruik</value>
+    </data>
+    <data name="LocationInfo_ConsumptionInfo_Generation" xml:space="preserve">
+        <value>Jaar Opwek</value>
+    </data>
+    <data name="LocationInfo_ConsumptionInfo_Injection" xml:space="preserve">
+        <value>Jaar injectie</value>
+    </data>
+    <data name="CommonDataObj_Location_Title" xml:space="preserve">
+        <value>Locatie</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_1" xml:space="preserve">
+        <value>De afgelopen maanden heeft [CompanyName] via je slimme meter bijgehouden hoeveel elektriciteit je inkoopt en teruglevert met jouw zonnepanelen. De gegevens worden ieder kwartier geregistreerd, sinds [FirstMeasurementDate] zijn er zo [MeasurementCount] metingen gedaan.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_Title" xml:space="preserve">
+        <value>Jouw persoonlijk batterij advies</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_2" xml:space="preserve">
+        <value>Op basis van deze gegevens hebben we geanalyseerd of een thuisbatterij voor jou een goede keuze zou zijn, en welke keuze dan de meest rendabele is.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_Title" xml:space="preserve">
+        <value>Welke factoren zijn van grote invloed?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_1_Title" xml:space="preserve">
+        <value>Hoeveel elektriciteit injecteer je?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_1" xml:space="preserve">
+        <value>Voor geïnjecteerde elektriciteit ontvangt je een lage vergoeding. Het is beter om deze elektriciteit op te slaan en deze later te gebruiken wanneer je anders dure elektriciteit zou moeten aankopen. Dit noemen we "het verhogen van zelfconsumptie" en is de standaard toepassing van een thuisbatterij. Er zijn echter nog twee belangrijke factoren, die met [CompanyName]'s unieke innovatieve software bruikbaar worden voor batterij bezitters.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_2_Title" xml:space="preserve">
+        <value>Veroorzaak je afname en injectie pieken?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_2" xml:space="preserve">
+        <value>In 2022 wordt het "capaciteitstarief" ingevoerd (zie voor meer uitleg bijlage 4). In dit systeem ga je meer betalen voor het netgebruik als je hoge pieken in je elektriciteitsafname of injectie hebt. In ons advies al wordt rekening gehouden met het voorkomen van zulke pieken. Dit bepaalt vooral de capaciteit van je batterij. Bij een te kleine batterij zou je toch nog kunnen pieken injecteren, bij een te grote batterij koop je een deel van de batterij die maar zelden wordt gebruikt.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_3_Title" xml:space="preserve">
+        <value>Maak je gebruik van de elektriciteitsmarkt?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_3" xml:space="preserve">
+        <value>Met een batterij in combinatie met slimme aansturing is het mogelijk afname en injectie beter af te stemmen op prijsfluctuaties in de energiemarkt. Met een energiecontract dat toegang geeft tot deze elektriciteitsmarkt (bijvoorbeeld Engie Dynamic) kan [CompanyName] zo het hele jaar door (ook in de winter) veel betere handelskeuzes maken om je injectrieprijs te verhogen en afnameprijs te verlagen. We zullen in dit rapport doorrekenen wat dit in jouw specifieke situatie zou betekenen. Het wordt dan aangeduid als "dynamische tarieven". Wil je hier meer over weten, lees dan vooral bijlage 6 eens goed door.</value>
+    </data>
+</root>

@@ -1,0 +1,13 @@
+.button-elem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.button-elem a{
+  width: 150px;
+}
+
+.button-cancel {
+  margin-left: 10px;
+}

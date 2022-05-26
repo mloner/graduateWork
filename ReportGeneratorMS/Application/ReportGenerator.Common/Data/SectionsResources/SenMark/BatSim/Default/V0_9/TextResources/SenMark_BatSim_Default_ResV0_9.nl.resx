@@ -1,0 +1,35 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Invloed van de stroomprijs op de terugverdientijd</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>Stijgingen of dalingen van de stroomprijs hebben een grote invloed op de terugverdientijd van een batterij. De tarieven voor elektriciteit zijn de afgelopen vijf jaar met gemiddeld [ElectricityRateAvgIncrease]% per jaar gestegen. In [Year] hebben ze zelfs een prijssprong genomen van meerdere tientallen procenten.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2" xml:space="preserve">
+        <value>Voor deze analyse, die een voorspelling doet voor [Years] jaar hebben we gekozen om conservatief te rekenen en zijn we daarom uitgegaan van [PriceIncreasePercent]% gemiddelde prijsstijging. Het kan dus echter zijn dat de prijzen trager of sneller stijgen. Ook kan het zijn dat het teruglevertarief gaat dalen. In onderstaande matrix laten we zien hoe stijgingen en dalingen het rendement op jouw investering zouden beïnvloeden.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3" xml:space="preserve">
+        <value>Wil je weten wat je besparing is over [Years] jaar als de elektriciteitsprijs gemiddeld met [ElectricityPriceEncrease]% stijgt en de terugleververgoeding met [FeedInEncrease]% daalt, dan zie je het resultaat in het vakje helemaal rechtsonder.</value>
+    </data>
+    <data name="SensitivityMatrix_YAxis" xml:space="preserve">
+        <value>Injectieprijsinflatie</value>
+    </data>
+    <data name="SensitivityMatrix_XAxis" xml:space="preserve">
+        <value>Elektriciteitsprijsinflatie</value>
+    </data>
+    <data name="Chart_SensitivityMatrix_Title" xml:space="preserve">
+        <value>Totale besparing bij verschillende niveaus van inflatie / deflatie</value>
+    </data>
+</root>

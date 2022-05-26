@@ -1,0 +1,118 @@
+.new-configuration-component {
+  padding: 24px;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.conf-block {
+  border: 2px solid #e7e8e8;
+}
+
+.conf-div {
+  padding: 5px 8px 5px 8px;
+  border: 2px solid #e7e8e8;
+  min-width: 320px;
+  min-height: 181px;
+}
+
+.button-plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1f1f1;
+}
+
+.conf-width-div {
+  width: calc(100%/5);
+}
+
+.icon-delete {
+  display: flex;
+  justify-content: flex-end;
+  /*font-weight: 500;*/
+  /*font-size: 14px;*/
+  /*line-height: 17px;*/
+  color: #1c4167;
+  margin-bottom: 8px;
+}
+
+.icon-delete:hover {
+  color:#56bae2;
+}
+
+.icon-delete-hidden {
+  display: flex;
+  justify-content: flex-end;
+  /*font-weight: 500;*/
+  /*font-size: 14px;*/
+  /*line-height: 17px;*/
+  color: #1c4167;
+  margin-bottom: 8px;
+  visibility: hidden;
+}
+
+.elem-select {
+  width: 50%;
+}
+.elem-text {
+  width: 50%;
+}
+.row-elem {
+  margin: 0;
+  display: flex;
+}
+
+.elem-label {
+  color: #12406b;
+  font-size: 18px;
+  padding: 7px 1px;
+  position: relative;
+}
+
+.two-card-element {
+  max-width: 49.5%;
+}
+
+.two-element-content {
+  max-height: 350px;
+  overflow: auto;
+  border: 2px solid #e7e8e8;
+  background: #f1f1f1;
+  font-size: 15px;
+}
+
+.two-elem {
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.myDiagram {
+  height: 350px;
+  border: 2px solid #e7e8e8;
+  background: #f1f1f1;
+}
+
+.title-save {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.title-button{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.button-back {
+  margin-right: 10px;
+}
+
+.height-100 {
+  height: 100%;
+}

@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>ReportingFramework</RootNamespace>
+        <LangVersion>10</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\ReportGeneratorMS\ReportGeneratorMSClient\ReportGeneratorClient.Models\ReportGeneratorClient.Models.csproj" />
+      <ProjectReference Include="..\..\Domain\CugReportsMS.Dtos\CugReportsMS.Dtos.csproj" />
+      <ProjectReference Include="..\CugReportsMS.Services\CugReportsMS.Services.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="ReportingAdapter.csproj.DotSettings" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="ReportTypesAdapter\Maintenance\DataModels" />
+      <Folder Include="ReportTypesAdapter\SimulationReports\AdviceP1InvReport\DataModels" />
+      <Folder Include="ReportTypesAdapter\SimulationReports\AdviceP1Report\DataModels" />
+      <Folder Include="ReportTypesAdapter\SimulationReports\MeasurementReport\DataModels" />
+      <Folder Include="ReportTypesAdapter\SimulationReports\SavingsReport\DataModels" />
+      <Folder Include="SectionAdapter\MCEMReport" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CsvHelper" Version="18.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.2.3" />
+    </ItemGroup>
+
+</Project>

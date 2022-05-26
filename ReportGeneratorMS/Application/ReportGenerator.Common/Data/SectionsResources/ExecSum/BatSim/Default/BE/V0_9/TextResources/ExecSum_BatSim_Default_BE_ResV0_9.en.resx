@@ -1,0 +1,62 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Battery advice report</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>The energy market is in full swing and as a solar panel owner you can now benefit even more by adding a battery to your installation. This advisory report is advice based on your personal situation. This may be different for a different home, with a different electricity profile.</value>
+    </data>
+    <data name="LocationInfo_ConsumptionInfo_Consumption" xml:space="preserve">
+        <value>Consumption</value>
+    </data>
+    <data name="LocationInfo_ConsumptionInfo_Generation" xml:space="preserve">
+        <value>Generation</value>
+    </data>
+    <data name="LocationInfo_ConsumptionInfo_Injection" xml:space="preserve">
+        <value>Injection</value>
+    </data>
+    <data name="CommonDataObj_Location_Title" xml:space="preserve">
+        <value>Location</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_1" xml:space="preserve">
+        <value>In recent months, Bliq has kept track of how much electricity you purchase and return with your solar panels via your smart meter. The data is registered every 15 minutes, since [FirstMeasurementDate] [MeasurementCount] measurements have been made.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_Title" xml:space="preserve">
+        <value>Your personal battery advice</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_2" xml:space="preserve">
+        <value>Based on this data, we analyzed whether a home battery would be a good choice for you, and which choice would be the most cost-effective.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_Title" xml:space="preserve">
+        <value>Which factors have a major influence?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_1_Title" xml:space="preserve">
+        <value>How much electricity do you return?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_1" xml:space="preserve">
+        <value>Electricity that you supply back to the grid is now settled with your purchased electricity. As soon as the netting scheme is phased out, it is better to take the part of yourself store generated electricity that you are no longer allowed to balance and use it later when you would otherwise have to buy expensive electricity. We call this "raising" of self-consumption” and is the standard application of a home battery. With [CompanyName], the self-consumption are further increased.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_2_Title" xml:space="preserve">
+        <value>Do you cause off-take and return peaks?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_3" xml:space="preserve">
+        <value>With a battery in combination with smart control, it is possible to better coordinate purchase and feed-in to price fluctuations in the energy market. You are then no longer dependent on the low feed-in fee and high purchase price. With an energy contract that gives access to this electricity market, [CompanyName] can make much better trade choices all year round (including winter) to increase your feed-in price and decrease the purchase price.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_3_Title" xml:space="preserve">
+        <value>Do you use the electricity market?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_2" xml:space="preserve">
+        <value>You pay a monthly amount for your electricity connection via your energy bill. The amount depends on the capacity. The connection must be large enough to meet peaks in your consumption and feed-in (for more information, see Appendix 4). The moment your peaks exceed the capacity of your connection, you have to take a larger connection. This means you pay a much higher rate every month. By controlling the battery smartly, we can prevent your peaks from getting too high. The occurrence of such peaks is already taken into account in our advice. In some cases we can also ensure that you can use a smaller connection, which saves money! In this report we will calculate what these three applications of a battery would mean in your specific situation. These applications are further explained in Appendix 3.</value>
+    </data>
+</root>

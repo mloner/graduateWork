@@ -1,0 +1,328 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <LangVersion>10</LangVersion>
+        <RootNamespace>ReportingFramework.Common</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Data\SectionsResources\ExecutiveSummary\ExecutiveSummaryAlgoComparison\ExecutiveSummaryAlgoComparisonJabba\V0_9\TextResources\ExecutiveSummaryAlgoComparisonJabbaResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ExecutiveSummaryAlgoComparisonJabbaResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\ExecutiveSummary\ExecutiveSummaryAlgoComparison\ExecutiveSummaryAlgoComparisonJabba\V0_9\TextResources\ExecutiveSummaryAlgoComparisonJabbaResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ExecutiveSummaryAlgoComparisonJabbaResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\PeakShavingComparison\PeakShavingComparisonAlgoComparison\PeakShavingComparisonAlgoComparisonJabba\V0_9\TextResources\PeakShavingComparisonAlgoComparisonJabbaResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>PeakShavingComparisonAlgoComparisonJabbaResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\Conclusion\ConclusionAlgoComparison\ConclusionAlgoComparisonJabba\V0_9\TextResources\ConclusionAlgoComparisonJabbaResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ConclusionAlgoComparisonJabbaResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\Disclaimer\DisclaimerAlgoComparison\DiclaimerAlgoComparisonJabba\V0_9\TextResources\DisclaimerAlgoComparisonJabbaResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>DisclaimerAlgoComparisonJabbaResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\Title\TitleBatSim\TitleBatSimBliq\V0_9\TextResources\TitleBatSimBliqResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>TitleBatSimBliqResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\ExecSum\ExecSumBatSim\ExecSumBatSimBliq\ExecSumBatSimBliqNL\V0_9\TextResources\ExecSumBatSimBliqNLResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ExecSumBatSimBliqNLResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\Advice\AdviceBatSim\AdviceBatSimBliq\AdviceBatSimBliqNL\V0_9\TextResources\AdviceBatSimBliqNLResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>AdviceBatSimBliqNLResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\CompScen\CompScenBatSim\CompScenBatSimBliq\CompScenBatSimBliqNL\V0_9\TextResources\CompScenBatSimBliqNLResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>CompScenBatSimBliqNLResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\CommonResources\TextResources\CommonResource.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>CommonResource.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\SimulationParameters\BatSim\Bliq\NL\V0_9\TextResources\SimPar_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SimPar_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\InpDataAnalysis\BatSim\Bliq\NL\V0_9\TextResources\InpDataAnalysis_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>InpDataAnalysis_BatSim_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\AlgoExpl\BatSim\Bliq\NL\V0_9\TextResources\AlgoExpl_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>AlgoExpl_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\CumCashflow\BatSim\Bliq\NL\V0_9\TextResources\CumCashflow_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>CumCashflow_Ba tSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\SenMark\BatSim\Bliq\NL\V0_9\TextResources\SenMark_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SenMark_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\EarnModels\BatSim\Bliq\NL\V0_9\TextResources\EarnModels_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>EarnModels_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\SelfCons\BatSim\Bliq\NL\V0_9\TextResources\SelfCons_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SelfCons_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\PeakShav\BatSim\Bliq\NL\V0_9\TextResources\PeakShav_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>PeakShav_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\DynTarExpl\BatSim\Bliq\NL\V0_9\TextResources\DynTarExpl_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>DynTarExpl_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\NetMet\BatSim\Bliq\NL\V0_9\TextResources\NetMet_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>NetMet_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\Glossary\BatSim\Bliq\NL\V0_9\TextResources\Glossary_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Glossary_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\Subsidy\BatSim\Bliq\NL\V0_9\TextResources\Subsidy_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Subsidy_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\ExecSum\HeatSav\Default\V0_9\TextResources\ExecSum_Default_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ExecSum_Default_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\ExecSum\HeatSav\V0_9\TextResources\ExecSum_HeatSav_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ExecSum_HeatSav_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\ExecSum\HeatSav\Default\V0_9\TextResources\ExecSum_HeatSav_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ExecSum_HeatSav_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\InpDataAnalysis\BatSim\Default\V0_9\TextResources\InpDataAnalysis_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>InpDataAnalysis_BatSim_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\AlgoExpl\BatSim\Default\V0_9\TextResources\AlgoExpl_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>AlgoExpl_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\CumCashflow\BatSim\Default\V0_9\TextResources\CumCashflow_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>CumCashflow_Ba tSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\SenMark\BatSim\Bliq\V0_9\TextResources\SenMark_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SenMark_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\EarnModels\BatSim\Default\V0_9\TextResources\EarnModels_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>EarnModels_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\SelfCons\BatSim\Default\V0_9\TextResources\SelfCons_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SelfCons_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\PeakShav\BatSim\Bliq\V0_9\TextResources\PeakShav_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>PeakShav_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\DynTarExpl\BatSim\Bliq\V0_9\TextResources\DynTarExpl_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>DynTarExpl_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\NetMet\BatSim\Bliq\V0_9\TextResources\NetMet_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>NetMet_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\Subsidy\BatSim\Bliq\V0_9\TextResources\Subsidy_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Subsidy_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\Glossary\BatSim\Bliq\V0_9\TextResources\Glossary_BatSim_Bliq_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Glossary_BatSim_Bliq_NL_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\ExecSum\BatSimShort\Default\BE\V0_9\TextResources\ExecSum_BatSimShort_Default_BE_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>TextResources.ExecSum_BatSimShort_Default_BE_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\ExecSum\BatSimShort\Default\NL\V0_9\TextResources\ExecSum_BatSimShort_Default_NL_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>TextResources.ExecSum_BatSimShort_Default_BE_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\SelfConsPeakShav\BatSimShort\Default\V0_9\TextResources\SelfConsPeakShav_BatSimShort_Default_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SelfConsPeakShav_BatSimShort_Default_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\BuySellEn\BatSimShort\Default\V0_9\TextResources\BuySellEn_BatSimShort_Default_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>BuySellEn_BatSimShort_Default_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\PerfExplWeek\BatSim\Default\V0_9\TextResources\PerfExplWeek_BatSim_Default_ResV0_9.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>PerfExplWeek_BatSim_Default_ResV0_9.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\Title\BatSimShort\Default\V0_1\TextResources\Res.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Res.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\ExecSum\AlgoComp\Default\V0_1\TextResources\Res.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Res.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Data\SectionsResources\PeakShavComp\AlgoComp\Default\V0_1\TextResources\Res.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Res.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Data\SectionsResources\ExecutiveSummary\ExecutiveSummaryAlgoComparison\ExecutiveSummaryAlgoComparisonJabba\V0_9\TextResources\ExecutiveSummaryAlgoComparisonJabbaResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ExecutiveSummaryAlgoComparisonJabbaResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\ExecutiveSummary\ExecutiveSummaryAlgoComparison\ExecutiveSummaryAlgoComparisonJabba\V0_9\TextResources\ExecutiveSummaryAlgoComparisonJabbaResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ExecutiveSummaryAlgoComparisonJabbaResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\PeakShavingComparison\PeakShavingComparisonAlgoComparison\PeakShavingComparisonAlgoComparisonJabba\V0_9\TextResources\PeakShavingComparisonAlgoComparisonJabbaResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>PeakShavingComparisonAlgoComparisonJabbaResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\Conclusion\ConclusionAlgoComparison\ConclusionAlgoComparisonJabba\V0_9\TextResources\ConclusionAlgoComparisonJabbaResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ConclusionAlgoComparisonJabbaResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\Disclaimer\DisclaimerAlgoComparison\DiclaimerAlgoComparisonJabba\V0_9\TextResources\DisclaimerAlgoComparisonJabbaResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>DisclaimerAlgoComparisonJabbaResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\Title\TitleBatSim\TitleBatSimBliq\V0_9\TextResources\TitleBatSimBliqResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>TitleBatSimBliqResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\ExecSum\ExecSumBatSim\ExecSumBatSimBliq\ExecSumBatSimBliqNL\V0_9\TextResources\ExecSumBatSimBliqNLResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ExecSumBatSimBliqNLResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\Advice\AdviceBatSim\AdviceBatSimBliq\AdviceBatSimBliqNL\V0_9\TextResources\AdviceBatSimBliqNLResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>AdviceBatSimBliqNLResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\CompScen\CompScenBatSim\CompScenBatSimBliq\CompScenBatSimBliqNL\V0_9\TextResources\CompScenBatSimBliqNLResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>CompScenBatSimBliqNLResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\SimulationParameters\BatSim\Bliq\NL\V0_9\TextResources\SimPar_BatSim_Bliq_NL_ResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>SimPar_BatSim_Bliq_NL_ResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\AlgoExpl\BatSim\Bliq\NL\V0_9\TextResources\AlgoExpl_BatSim_Bliq_NL_ResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>AlgoExpl_BatSim_Bliq_NL_ResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\PeakShav\BatSim\Bliq\NL\V0_9\TextResources\PeakShav_BatSim_Bliq_NL_ResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>PeakShav_BatSim_Bliq_NL_ResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\DynTarExpl\BatSim\Bliq\NL\V0_9\TextResources\DynTarExpl_BatSim_Bliq_NL_ResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>DynTarExpl_BatSim_Bliq_NL_ResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\NetMet\BatSim\Bliq\NL\V0_9\TextResources\NetMet_BatSim_Bliq_NL_ResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>NetMet_BatSim_Bliq_NL_ResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\Glossary\BatSim\Bliq\NL\V0_9\TextResources\Glossary_BatSim_Bliq_NL_ResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Glossary_BatSim_Bliq_NL_ResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\Subsidy\BatSim\Bliq\NL\V0_9\TextResources\Subsidy_BatSim_Bliq_NL_ResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Subsidy_BatSim_Bliq_NL_ResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\ExecSum\HeatSav\Default\V0_9\TextResources\ExecSum_Default_ResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ExecSum_Default_ResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\PerfExplWeek\BatSim\Default\V0_9\TextResources\PerfExplWeek_BatSim_Default_ResV0_9.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>PerfExplWeek_BatSim_Default_ResV0_9.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\Title\BatSimShort\Default\V0_1\TextResources\Res.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Res.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\ExecSum\AlgoComp\Default\V0_1\TextResources\Res.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Res.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Data\SectionsResources\PeakShavComp\AlgoComp\Default\V0_1\TextResources\Res.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Res.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="Data\**">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Data\SectionsResources\Advice\BatSim\Default\NL\V0_9\Images" />
+      <Folder Include="Data\SectionsResources\Conclusion\AlgoComp\Jabba\V0_9\Images" />
+      <Folder Include="Data\SectionsResources\Disclaimer\AlgoComp\Jabba\V0_9\Images" />
+      <Folder Include="Data\SectionsResources\EarnModels\BatSim\Default\NL" />
+      <Folder Include="Data\SectionsResources\ExecSum\BatSim\Default\NL" />
+      <Folder Include="Data\SectionsResources\ExecSum\HeatSav\Default" />
+      <Folder Include="Data\SectionsResources\PeakShavingComparison\AlgoComp\Jabba\V0_9\Images" />
+      <Folder Include="Data\SectionsResources\PeakShav\BatSim\Default\NL" />
+      <Folder Include="Data\SectionsResources\SelfCons" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="PDFsharp-MigraDoc-gdi" Version="1.50.5147" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Domain\ReportGenerator.Dtos\ReportGenerator.Dtos.csproj" />
+    </ItemGroup>
+
+</Project>

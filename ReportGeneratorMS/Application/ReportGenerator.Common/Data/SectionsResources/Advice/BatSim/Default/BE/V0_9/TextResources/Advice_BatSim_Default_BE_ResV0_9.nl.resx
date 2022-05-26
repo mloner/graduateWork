@@ -1,0 +1,98 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Ons advies</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>Hieronder laten we zien welke batterijopstelling voor jou het beste is en wat de investering in dit systeem zou zijn. Daaronder hebben we op twee manieren uitgewerkt wat dit voor jou zal opleveren. In het geval van optie één laten we zien wat het zou opleveren op het moment dat je de aanbevolen batterij op de standaard manier in gebruik neemt. Dat wil zeggen alleen gericht op het verhogen van zelfconsumptie. In optie twee laten we zien wat het jou oplevert als je er de slimme sturing van [CompanyName] aan toevoegt dat gebruik maakt van de mogelijkheden op de energiemarkt en rekening houdt met het peakshaven.</value>
+    </data>
+    <data name="RecommendedConfiguration" xml:space="preserve">
+        <value>Aanbevolen configuratie</value>
+    </data>
+    <data name="Power" xml:space="preserve">
+        <value>Vermogen</value>
+    </data>
+    <data name="Capacity" xml:space="preserve">
+        <value>Capaciteit</value>
+    </data>
+    <data name="BatteryCost" xml:space="preserve">
+        <value>Batterij</value>
+    </data>
+    <data name="ServiceFeePerMonth" xml:space="preserve">
+        <value>[CompanyName] service fee</value>
+    </data>
+    <data name="SimpleTariff" xml:space="preserve">
+        <value>Batterij standaard instelling</value>
+    </data>
+    <data name="DynamicTariff" xml:space="preserve">
+        <value>Met [CompanyName] aansturing en dynamisch tarief</value>
+    </data>
+    <data name="Savings" xml:space="preserve">
+        <value>Net besparing</value>
+    </data>
+    <data name="Total" xml:space="preserve">
+        <value>Totaal</value>
+    </data>
+    <data name="PaybackPeriod" xml:space="preserve">
+        <value>Terugverdientijd</value>
+    </data>
+    <data name="ReturnOfInvestment" xml:space="preserve">
+        <value>Rendement op je geld</value>
+    </data>
+    <data name="Bank" xml:space="preserve">
+        <value>Bank</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_Title" xml:space="preserve">
+        <value>Met [CompanyName] ben je baas in eigen batterij</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_1" xml:space="preserve">
+        <value>In onze analyse hebben we jouw specifieke situatie in detail onderzocht. We hebben je inzicht gegeven in de basis terugverdientijd van die technisch en financieel het beste bij jou past. Daarnaast hebben we doorgerekend welke meerwaarde je kunt bereiken als je je batterij slim monitort en aanstruut met [CompanyName]. Niet op basis van gemiddelde of standaardmodellen, maar op basis van jouw gegevens.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_2" xml:space="preserve">
+        <value>Doordat [CompanyName] de batterij intensiever, dag én nacht, zomer én winter, voor jou laat werken, kan deze meer renderen. Bovendien stelt de continue monitoring ons in staat om bij wijzigingen in de wet of tariefstructuur proactief de aansturing aan te passen. De aankoop van een batterij is immers een lange termijn investering, en als eigenaar van zonnepanelen weet je dat er in de jaren veel kan veranderen.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_3" xml:space="preserve">
+        <value>Zo blijf je met [CompanyName] altijd baas in eigen batterij.</value>
+    </data>
+    <data name="ComparisonTable_Header" xml:space="preserve">
+        <value>[Algo] + [MarketType] tarief</value>
+    </data>
+    <data name="ComparisonTable_MarketType_Dam" xml:space="preserve">
+        <value>dynamisch</value>
+    </data>
+    <data name="ComparisonTable_MarketType_DayNight" xml:space="preserve">
+        <value>dag/nacht</value>
+    </data>
+    <data name="CommonDataObj_Desc_1_1_NoCase" xml:space="preserve">
+        <value>Hieronder laten we zien welke batterijopstelling voor jou het beste is en wat de investering in dit systeem zou zijn. De aanschaf van een batterij weegt voor jou nu nog niet op tegen de voordelen van de salderingsregeling. Deze regeling zal echter vanaf 2023 stapsgewijs worden afgebouwd. Hierdoor komt er een moment waarop investeren in een batterij wel rendabel is. [CompanyName] zet je batterij harder aan het werk, zodat deze eerder rendabel wordt en je terugverdientijd verkort wordt. Als je in de toekomst elektrisch gaat rijden of bijvoorbeeld een warmtepomp aanschaft verandert je verbruiksprofiel. Blijf gebruik maken van onze monitoring, zodat wij je kunnen informeren op het moment dat een batterij voor jou interessant wordt.</value>
+    </data>
+    <data name="CommonDataObj_Desc_1_2_NoCase" xml:space="preserve">
+        <value>Hieronder zie je welk systeem voor jouw energieverbruik het meest geschikt zou zijn. We hebben op twee manieren uitgewerkt wat het rendement op dit systeem zou zijn. In het geval van optie één laten we zien wat het zou opleveren op het moment dat je de aanbevolen batterij op de standaard manier in gebruik neemt. Dat wil zeggen alleen gericht op het verhogen van zelfconsumptie. In optie twee laten we zien wat het jou oplevert als je er de slimme sturing van [CompanyName] aan toevoegt dat gebruik maakt van de mogelijkheden op de energiemarkt en rekening houdt met het peakshaven.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_1_NoCase" xml:space="preserve">
+        <value>In onze analyse hebben we nu jouw specifieke situatie in detail onderzocht. We hebben je inzicht gegeven in de basis terugverdientijd van de batterij die technisch en financieel het beste bij jou past. Daarnaast hebben we doorgerekend welke meerwaarde je kunt bereiken als je je batterij slim monitort en aanstuurt met [CompanyName]. Niet op basis van gemiddelden of standaardmodellen, maar op basis van jouw gegevens. Zo blijf je met [CompanyName] altijd baas over je eigen batterij.</value>
+    </data>
+    <data name="ComparisonTablePaybackPeriodBlock_BatteryLifeSpan" xml:space="preserve">
+        <value>De levensduur van de batterij is [Lifespan] jaar.</value>
+    </data>
+    <data name="ComparisonTableRerurnOfInvestmentBlock_InvestmentPeriodAdvice" xml:space="preserve">
+        <value>Bij aanschaf in het jaar [ViablePeriod] haal je wel rendement op je investering in de opvolgende 15 jaar.</value>
+    </data>
+    <data name="ComparisonTable_Algo_Algo" xml:space="preserve">
+        <value>[CompanyName] aansturing</value>
+    </data>
+    <data name="ComparisonTable_Algo_NoAlgo" xml:space="preserve">
+        <value>Geen aansturing</value>
+    </data>
+</root>

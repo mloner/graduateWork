@@ -1,0 +1,53 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Wat is de batterij premie?</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>Om het gebruik van thuisbatterijen te stimuleren biedt de Vlaamse overheid een premie voor wie een thuisbatterij koopt of leaset. De huidige premie is aan te vragen tot eind 2021. Vanaf volgend jaar gaat deze geleidelijk naar beneden. Hieronder ziet u een tabel met de bedragen. Deze zijn meegenomen in uw analyse.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2" xml:space="preserve">
+        <value>Meer info over de batterijen premie vind je via: {link}https://www.vlaanderen.be/premie-voor-deaankoop-of-leasing-van-een-thuisbatterij-voor-zelf-opgewekte-energie{/link}.</value>
+    </data>
+    <data name="Table_Yearly_Subsidies_Date" xml:space="preserve">
+        <value>Datum</value>
+    </data>
+    <data name="Table_Yearly_Subsidies_From0to4" xml:space="preserve">
+        <value>0 tot 4 kWh</value>
+    </data>
+    <data name="Table_Yearly_Subsidies_From4to6" xml:space="preserve">
+        <value>4 tot 6 kWh</value>
+    </data>
+    <data name="Table_Yearly_Subsidies_From6to9" xml:space="preserve">
+        <value>6 tot en met 9 kWh</value>
+    </data>
+    <data name="Table_Yearly_Subsidies_From9" xml:space="preserve">
+        <value>&gt; 9 kWh</value>
+    </data>
+    <data name="Table_Yearly_Subsidies_Maximum" xml:space="preserve">
+        <value>Maximum</value>
+    </data>
+    <data name="Table_Yearly_Subsidies_Maximum_CellData" xml:space="preserve">
+        <value>[Price], max [Percent]% van de factuur incl. btw</value>
+    </data>
+    <data name="BatterySubsidy_BatteryPriceWithSubsidy" xml:space="preserve">
+        <value>Batterijen prijs met subsidies</value>
+    </data>
+    <data name="BatterySubsidy_BatteryPrice" xml:space="preserve">
+        <value>Batterijen prijs</value>
+    </data>
+    <data name="Chart_BatterySubsidy_Title" xml:space="preserve">
+        <value>Investering na aftrek batterij subsidie</value>
+    </data>
+</root>

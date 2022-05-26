@@ -1,0 +1,22 @@
+.size{
+  min-width: 50px;
+  max-height: 70px;
+}
+
+.modal-height {
+  max-height: calc(100vh - 350px);
+}
+
+.button-elem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+.button-elem a{
+  width: 150px;
+}
+
+.button-cancel {
+  margin-left: 10px;
+}

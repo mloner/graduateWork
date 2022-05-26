@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-Worker-BF6703AC-3C1E-429C-AD95-C285D67245CA</UserSecretsId>
+        <ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ClosedXML" Version="0.95.4" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+        <PackageReference Include="Serilog" Version="2.10.0" />
+        <PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\CugReportsMS\CugReportsMSClient\CugReportsMSClient\CugReportsMSClient.csproj" />
+      <ProjectReference Include="..\..\..\SenderClient\SenderClient.csproj" />
+      <ProjectReference Include="..\..\Domain\ReportConfigurationMS.Domain\ReportConfigurationMS.Domain.csproj" />
+      <ProjectReference Include="..\..\Infrastructure\ReportConfigurationMS.DataBase\ReportConfigurationMS.DataBase.csproj" />
+    </ItemGroup>
+
+    
+</Project>

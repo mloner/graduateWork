@@ -1,0 +1,62 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Sensitivity of electricity market</value>
+    </data>
+    <data name="SensitivityMatrix_XAxis" xml:space="preserve">
+        <value>Average price change</value>
+    </data>
+    <data name="SensitivityMatrix_YAxis" xml:space="preserve">
+        <value>Sprite per day</value>
+    </data>
+    <data name="Chart_SensitivityMatrix_Title" xml:space="preserve">
+        <value>Electricity price sensitivity matrix</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>Increases or decreases in the electricity price have a major impact on the payback period. Electricity rates have increased by an average of 2% per year over the past five years. In 2021 they will even take a price jump of several tens of percent. For this analysis, which makes a prediction over 15 years, we have chosen to calculate conservatively and therefore we have assumed an average price increase of 1%. However, prices may rise more slowly or faster. It is also possible that the spread per day will increase, increasing the volatility of energy prices. In the matrix below we show how increases and decreases affect the return on your investment.</value>
+    </data>
+    <data name="Chart_AverageHourlyDam_Title" xml:space="preserve">
+        <value>Average day for the last of 365 days</value>
+    </data>
+    <data name="AverageHourlyDam_Weekends" xml:space="preserve">
+        <value>Weekends</value>
+    </data>
+    <data name="AverageHourlyDam_WorkingDays" xml:space="preserve">
+        <value>Working days</value>
+    </data>
+    <data name="AverageHourlyDam_AllDays" xml:space="preserve">
+        <value>All days</value>
+    </data>
+    <data name="Chart_PriceAndSpreadYearlyGrow_Title" xml:space="preserve">
+        <value>Yearly DAM grow</value>
+    </data>
+    <data name="PriceAndSpreadYearlyGrow_AllDays" xml:space="preserve">
+        <value>All days</value>
+    </data>
+    <data name="PriceAndSpreadYearlyGrow_WorkingDays" xml:space="preserve">
+        <value>Working days</value>
+    </data>
+    <data name="PriceAndSpreadYearlyGrow_Weekends" xml:space="preserve">
+        <value>Weekends</value>
+    </data>
+    <data name="PriceAndSpreadYearlyGrow_AllDaysSpread" xml:space="preserve">
+        <value>All days, spread</value>
+    </data>
+    <data name="PriceAndSpreadYearlyGrow_WorkingDaysSpread" xml:space="preserve">
+        <value>Working days, spread</value>
+    </data>
+    <data name="PriceAndSpreadYearlyGrow_WeekendsSpread" xml:space="preserve">
+        <value>Weekends, spread</value>
+    </data>
+</root>

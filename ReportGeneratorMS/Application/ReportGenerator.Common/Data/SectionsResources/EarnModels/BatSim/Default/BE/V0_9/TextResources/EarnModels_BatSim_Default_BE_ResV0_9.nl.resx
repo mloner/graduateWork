@@ -1,0 +1,59 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Verdienmodellen: zelfconsumptie, peakshaving en dynamische tarieven</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>[CompanyName] berekent de rendabiliteit van je batterij op basis van drie verdienmodellen</value>
+    </data>
+    <data name="EarningModelList" xml:space="preserve">
+        <value>Zelfconsumptie;Peakshaving, en;Dynamische elektriciteitstarieven</value>
+    </data>
+    <data name="CommonDataObj_Desc_2" xml:space="preserve">
+        <value>De eerste is een standaardfunctionaliteit voor alle thuisbatterijen. Met de slimme software aansturing van [CompanyName] kunnen we echter zelfconsumptie nog verbeteren én de twee andere verdienmodellen toevoegen. In deze bijlage geven wij op alle drie een korte toelichting.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_Title" xml:space="preserve">
+        <value>Hoe is je elektriciteitsprijs opgebouwd?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_1" xml:space="preserve">
+        <value>Allereerst een toelichting over de elektriciteitsprijs zelf. Hoe is deze opgebouwd? In deze simulatie maken we gebruik van de elektriciteitsprijs die je hebt ingevoerd in de app. Moch je geen prijsinformatie hebben ingevuld dan maken we gebruik van de gemiddelde prijzen die gelden in Vlaanderen.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_2" xml:space="preserve">
+        <value>Als jouw kosten aanzienlijk anders zijn dan de onderstaande getallen, neem dan contact op met [CompanyName] en we zullen je helpen om een simulatie te maken op basis van jouw tarieven.</value>
+    </data>
+    <data name="ElBillStructure_BTW" xml:space="preserve">
+        <value>BTW</value>
+    </data>
+    <data name="ElBillStructure_ODE" xml:space="preserve">
+        <value>ODE</value>
+    </data>
+    <data name="ElBillStructure_EnergyTax" xml:space="preserve">
+        <value>Energiebelasting</value>
+    </data>
+    <data name="ElBillStructure_FixCost" xml:space="preserve">
+        <value>Vastrecht</value>
+    </data>
+    <data name="ElBillStructure_NetworkCost" xml:space="preserve">
+        <value>Netwerkkosten</value>
+    </data>
+    <data name="ElBillStructure_DeliveryCost" xml:space="preserve">
+        <value>Leveringskosten</value>
+    </data>
+    <data name="Chart_ElBillStructure_Title" xml:space="preserve">
+        <value>Samenstelling elektriciteitsfactuur (Consumentenbond, 2021)</value>
+    </data>
+    <data name="Image_EarnigModelsTariffs_Title" xml:space="preserve">
+        <value>Samenstelling elektriciteitsfactuur (VREG 2021)</value>
+    </data>
+</root>

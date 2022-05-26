@@ -1,0 +1,200 @@
+<button
+  class="button-primary"
+  pButton
+  type="button"
+  label="New Component"
+  icon="fa fa-plus"
+  iconPos="left"
+  (click)="formModal = true; getParamName(typeId); getCugs();"
+></button>
+
+
+<!-- Form Modal -->
+<div class="modal" [ngClass]="{ active: formModal }" (click)="closeModal($event)">
+  <div class="modal-dialog w-800" role="dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="col-md-12">
+          <div class="card-title-container">
+            <h5 class="card-title">New Component</h5>
+          </div>
+          <div class="col-md-2 dialog-close-btn-container">
+            <button type="button" class="close" data-dismiss="modal" (click)="formModal = false"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-body modal-height">
+        <div class="row">
+          <div class="col-md-5">
+            <label class="form-label">Name</label>
+          </div>
+          <div class="col-md-7">
+            <div class="form-group">
+              <input type="text" class="form-control" [(ngModel)]="newEditComponent.componentName"
+                     placeholder="Please input Name"/>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <label class="form-label">Type</label>
+          </div>
+          <div class="col-md-7">
+            <!-- Drop Down -->
+            <div class="dropdown-select">
+              <select [(ngModel)]="newEditComponent.componentTypeId"
+                      (change)="getParam(newEditComponent.componentTypeId)">
+                <option *ngFor="let type of types; let i = index" [value]="type.componentTypeId">{{type.name}}</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!--Categories-->
+        <div class="d-flex mb-3 nowrap" *ngIf="threeMode">
+          <div *ngFor="let category of categories" class="field-checkbox form-label align-items-center">
+            <p-radioButton [inputId]="category.key" name="category" [value]="category" [(ngModel)]="selectedCategory"
+                           [disabled]="category.key === 'R'" class="align-baseline" (click)="clickRadio()"></p-radioButton>
+            <label [for]="category.key" class="mb-0 ml-2">{{category.name}}</label>
+          </div>
+        </div>
+        <!--Selected Specification-->
+        <div *ngIf="selectedCategory == categories[0]">
+          <label class="form-label text-justify mb-3" *ngIf="threeMode">
+            Saving a component in this mode will reset the Guid parameter and delete component property values (recording from file) if any.
+          </label>
+          <!--Param-->
+          <div class="" *ngFor="let param of newEditComponent.paramValueRowModels">
+            <div *ngIf="param.validity && param.componentParameterName != 'Guid'" class="row">
+              <div class="col-md-5">
+                <label class="form-label">{{param.componentParameterName}}</label>
+              </div>
+              <div class="col-md-5">
+                <div class="form-group">
+                  <input type="text" class="form-control" [(ngModel)]="param.value" placeholder="Value"/>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <label class="form-label">{{param.unit}}</label>
+              </div>
+            </div>
+          </div>
+          <!--NotValid-->
+          <div *ngIf="valid && notValidNum>0" class="" >
+            <div class="">
+              <label class="form-label">Not valid parameters</label>
+            </div>
+            <div *ngFor="let param of newEditComponent.paramValueRowModels">
+              <div *ngIf="!param.validity && param.componentParameterName != 'Guid'" class="row">
+                <div class="col-md-5">
+                  <label class="form-label">{{param.componentParameterName}}</label>
+                </div>
+                <div class="col-md-5">
+                  <div class="form-group">
+                    <input type="text" class="form-control" [(ngModel)]="param.value" placeholder="Value"/>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <label class="form-label">{{param.unit}}</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Selected EcoSCADA-->
+        <div *ngIf="selectedCategory == categories[1]">
+          <label class="form-label text-justify mb-3">
+            Saving the component in this mode will reset all parameters except Guid and delete the values of the component's properties (recording from the file), if any.
+          </label>
+          <!--Cugs-->
+          <div class="row">
+            <div class="col-md-5">
+              <label class="form-label">Cug</label>
+            </div>
+            <div class="dropdown-select col-md-7">
+              <select [(ngModel)]="selectedCug" (change)="getBuildings(selectedCug)">
+                <option *ngFor="let cug of cugs; let i = index" [value]="cug.guid">{{cug.name}}</option>
+              </select>
+            </div>
+          </div>
+          <!--Buildings-->
+          <div class="row">
+            <div class="col-md-5">
+              <label class="form-label">Building</label>
+            </div>
+            <div class="dropdown-select col-md-7">
+              <select [(ngModel)]="selectedBuild" (change)="getMeasurements(selectedBuild)">
+                <option *ngFor="let building of buildings; let i = index" [value]="building.guid">{{building.name}}</option>
+              </select>
+            </div>
+          </div>
+          <!--Measurements-->
+          <div class="row">
+            <div class="col-md-5">
+              <label class="form-label">Measurement</label>
+            </div>
+            <div class="dropdown-select col-md-7">
+              <select [(ngModel)]="selectedMeasure" (change)="getGuid(selectedMeasure)" >
+                <option *ngFor="let measurement of measurements; let i = index" [value]="measurement.guid">{{measurement.name}}</option>
+              </select>
+            </div>
+          </div>
+          <!--Guid-->
+          <div class="row">
+            <div class="col-md-5">
+              <label class="form-label">Guid</label>
+            </div>
+            <div class="dropdown-select col-md-7">
+              <input type="text" class="form-control" [(ngModel)]="guid" placeholder="Guid" disabled/>
+            </div>
+          </div>
+        </div>
+        <!--Select File-->
+        <div *ngIf="selectedCategory == categories[2]">
+          <label class="form-label text-justify mb-3">
+            Saving the component in this mode will reset all parameters, including the Guid, and create component property values from the file.
+          </label>
+          <div class="d-flex align-items-center mb-5 flex-wrap">
+            <label *ngIf="fileName" class="form-label">File selected: {{fileName}}</label>
+            <label *ngIf="!fileName" class="form-label">No file uploaded yet</label>
+            <div class="ml-3">
+              <div class="file-upload">
+                <button
+                  class="btnLogout"
+                  pButton
+                  type="button"
+                  label="Upload"
+                  icon="fa fa-upload"
+                  iconPos="left"
+                  (click)="fileUploadNewComp.click()"
+                ></button>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <label *ngIf="loadSuccess" class="form-label">File upload successful!</label>
+            <label *ngIf="loadingImage" class="form-label">File is being processed...</label>
+            <label *ngIf="loadError" class="form-label">File upload error</label>
+            <img *ngIf="loadingImage" src="../../../assets/images/download.gif" width="40px" height="40px"/>
+          </div>
+        </div>
+        <!--Button-->
+        <div class="button-elem">
+          <div *ngIf="selectedCategory == categories[2] && fileName != ''" class="">
+            <a class="btnLogout disabled" (click)="add()">Save</a>
+          </div>
+          <div *ngIf="selectedCategory != categories[2]" class="">
+            <a class="btnLogout" (click)="add()">Save</a>
+          </div>
+          <div class="button-cancel">
+            <a class="btnLogout" (click)="formModal = false">Cancel</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<input type="file" class="d-none" (change)="onFileSelected($event)" accept=".csv" #fileUploadNewComp>
+

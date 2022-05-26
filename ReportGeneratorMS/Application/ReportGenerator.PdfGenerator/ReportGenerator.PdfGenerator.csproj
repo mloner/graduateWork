@@ -1,0 +1,138 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>ReportingFramework</RootNamespace>
+        <LangVersion>10</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Include="FontResolver\fonts\averta\avertastd_bold.ttf" />
+      <EmbeddedResource Include="FontResolver\fonts\averta\avertastd_regular.ttf" />
+      <EmbeddedResource Update="Structure\Sections\CumulativeCashflow\Resources\TextResources\CumulativeCashflow.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>MarketSensitivity.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Structure\Sections\MarketSensitivity\Resources\TextResources\MarketSensitivity.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>MarketSensitivity.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Structure\Resources\TextResources\CommonResources.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>CommonResources.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Structure\Sections\ComparedScenarios\Resources\TextResources\ComparedScenarios.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ComparedScenarios.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Structure\Sections\ExampleSection\Resources\TextResources\ExampleSection.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ExampleSection.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Structure\Sections\TitlePage\Resources\TextResources\TitlePage.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ExampleSection.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Structure\Sections\Preadvice\Resources\TextResources\Preadvice.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ExampleSection.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Structure\Sections\TestSection\Resources\TextResources\TestSection.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ExampleSection.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Structure\Sections\Advice\Resources\TextResources\Advice.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Advice.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <None Remove="FontResolver\fonts\averta\avertastd_regular_italic.ttf" />
+      <EmbeddedResource Include="FontResolver\fonts\averta\avertastd_regular_italic.ttf" />
+      <None Remove="FontResolver\fonts\averta\avertastd_bold_italic.ttf" />
+      <EmbeddedResource Include="FontResolver\fonts\averta\avertastd_bold_italic.ttf" />
+    </ItemGroup>
+    
+
+    <ItemGroup>
+      <Compile Update="Structure\Sections\ComparedScenarios\Resources\TextResources\ComparedScenarios.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ComparedScenarios.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Structure\Sections\ExampleSection\Resources\TextResources\ExampleSection.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ExampleSection.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Structure\Sections\TitlePage\Resources\TextResources\TitlePage.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>TitlePage.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Structure\Sections\TitlePage\Resources\TextResources\TitlePage.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ExampleSection.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Structure\Sections\Preadvice\Resources\TextResources\Preadvice.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ExampleSection.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Structure\Sections\Preadvice\Resources\TextResources\Preadvice.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Preadvice.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Structure\Sections\TestSection\Resources\TextResources\TestSection.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ExampleSection.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Structure\Sections\TestSection\Resources\TextResources\TestSection.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>TestSection.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Structure\Sections\Advice\Resources\TextResources\Advice.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Advice.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+    
+
+    <ItemGroup>
+      <Folder Include="Structure\SectionHelpers\SelfCons\BatSim" />
+    </ItemGroup>
+    
+
+    
+    
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+      <PackageReference Include="MigraDocCore.DocumentObjectModel" Version="1.3.9" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="PDFsharp-MigraDoc-gdi" Version="1.50.5147" />
+      <PackageReference Include="PdfSharpCore" Version="1.3.9" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.2.3" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.16.0" />
+    </ItemGroup>
+    
+
+    
+    
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\PdfReportTemplaterClient\PdfReportTemplaterClient.csproj" />
+      <ProjectReference Include="..\..\Domain\ReportGenerator.Dtos\ReportGenerator.Dtos.csproj" />
+      <ProjectReference Include="..\..\Domain\ReportGenerator.Models\ReportGenerator.Models.csproj" />
+      <ProjectReference Include="..\ReportGenerator.Common\ReportGenerator.Common.csproj" />
+    </ItemGroup>
+
+ 
+
+</Project>

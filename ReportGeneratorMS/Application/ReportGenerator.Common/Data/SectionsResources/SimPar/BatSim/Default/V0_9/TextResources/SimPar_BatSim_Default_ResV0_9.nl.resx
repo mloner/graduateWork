@@ -1,0 +1,89 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="CommonDataObj_KeyDetails_Desc_1" xml:space="preserve">
+        <value>De analyse is gemaakt op basis van onderstaande gegevens die u en/of uw installateur aan ons hebben aangeleverd.</value>
+    </data>
+    <data name="CommonDataObj_KeyDetails_Desc_1_Title" xml:space="preserve">
+        <value>Kengetallen</value>
+    </data>
+    <data name="KeyDetails_Table_Country" xml:space="preserve">
+        <value>Land</value>
+    </data>
+    <data name="KeyDetails_Table_Region" xml:space="preserve">
+        <value>Net regio</value>
+    </data>
+    <data name="KeyDetails_Table_CapacityPricePerYear" xml:space="preserve">
+        <value>Capaciteitsprijs</value>
+    </data>
+    <data name="KeyDetails_Table_ElectricityPriceRefDayNight" xml:space="preserve">
+        <value>Elektriciteitsprijs ref. dag/nacht</value>
+    </data>
+    <data name="KeyDetails_Table_ElectricityPriceDamDayNight" xml:space="preserve">
+        <value>Elektriciteitsprijs DAM dag/nacht</value>
+    </data>
+    <data name="KeyDetails_Table_InjectionTariff" xml:space="preserve">
+        <value>Injectietarief</value>
+    </data>
+    <data name="KeyDetails_Table_FeePerMonth" xml:space="preserve">
+        <value>Maandelijkse aansturing fee</value>
+    </data>
+    <data name="KeyDetails_Table_ElectricityPriiceInflationPercent" xml:space="preserve">
+        <value>Inflatie elektriciteitsprijs</value>
+    </data>
+    <data name="KeyDetails_Table_InjectionTariffInflationPercent" xml:space="preserve">
+        <value>Inflatie injectietarief</value>
+    </data>
+    <data name="KeyDetails_Table_CurrentConnectionCapacity" xml:space="preserve">
+        <value>Huidige aansluiting capaciteit</value>
+    </data>
+    <data name="KeyDetails_Table_InterestRatePercent" xml:space="preserve">
+        <value>Rentevoet</value>
+    </data>
+    <data name="KeyDetails_Table_SimulationTermYears" xml:space="preserve">
+        <value>Termijn</value>
+    </data>
+    <data name="KeyDetails_Table_SimulationPeriod" xml:space="preserve">
+        <value>Simulateperiode</value>
+    </data>
+    <data name="CommonDataObj_BatInfo_Desc_1_Title" xml:space="preserve">
+        <value>Batterijen</value>
+    </data>
+    <data name="CommonDataObj_BatInfo_Desc_1" xml:space="preserve">
+        <value>Onderstaande batterijen hebben wij meegenomen in de analyse.</value>
+    </data>
+    <data name="BatInfo_Table_BatteryModel" xml:space="preserve">
+        <value>Batterij</value>
+    </data>
+    <data name="BatInfo_Table_CRate" xml:space="preserve">
+        <value>C-rate</value>
+    </data>
+    <data name="BatInfo_Table_DepthOfDischargePercent" xml:space="preserve">
+        <value>DoD</value>
+    </data>
+    <data name="BatInfo_Table_DegradationPerMonthPercent" xml:space="preserve">
+        <value>Degradatie</value>
+    </data>
+    <data name="BatInfo_Table_RTEPercent" xml:space="preserve">
+        <value>RTE</value>
+    </data>
+    <data name="BatInfo_Table_CyclesTotal" xml:space="preserve">
+        <value>Cycles</value>
+    </data>
+    <data name="Title" xml:space="preserve">
+        <value>Simulatie parameters</value>
+    </data>
+    <data name="KeyDetails_Table_DamBuySell" xml:space="preserve">
+        <value>DAM kopen / verkopen prijs</value>
+    </data>
+</root>

@@ -1,0 +1,53 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>SIMULATIE</value>
+    </data>
+    <data name="CommonDataObj_RefCase_Title" xml:space="preserve">
+        <value>Referentiecase</value>
+    </data>
+    <data name="CommonDataObj_RefCase_1" xml:space="preserve">
+        <value>Je thuisbatterij draait op het standaard algoritme van optimalisatie van de zelfconsumptie. Dit neemt niet weg dat er hier en daar al aan peak shaving wordt gedaan. Op het moment dat je zonnepanelen produceren worden de verbuikers in je huis gedekt. Enkel wanneer er meer vermogen gevraagd wordt dan de productie wordt er energie uit het net betrokken en kan er een piek optreden. Eventueel gaat je thuisbatterij op die momenten nog eerst bijspringen.</value>
+    </data>
+    <data name="PeakShavingMonth_Ref_MonthPeak" xml:space="preserve">
+        <value>Gemiddelde maandpiek</value>
+    </data>
+    <data name="PeakShavingMonth_Ref_GridPower" xml:space="preserve">
+        <value>Net aankoop</value>
+    </data>
+    <data name="CommonDataObj_RefCase_2" xml:space="preserve">
+        <value>Je hoogste gemiddelde maandpiek bedroeg [Value] kW, en kwam voor op [Date] tussen [Time1] en [Time2].</value>
+    </data>
+    <data name="CommonDataObj_RefCase_3" xml:space="preserve">
+        <value>Dit betekent een capaciteitstarief voor de simulatieperiode van €[Value]/maand.</value>
+    </data>
+    <data name="CommonDataObj_BestCase_Title" xml:space="preserve">
+        <value>Optimalisatie</value>
+    </data>
+    <data name="CommonDataObj_BestCase_1" xml:space="preserve">
+        <value>Je installatie wordt gestuurd volgens het slimme [CompanyName]-algoritme.</value>
+    </data>
+    <data name="PeakShavingMonth_Best_GridPower" xml:space="preserve">
+        <value>Net aankoop</value>
+    </data>
+    <data name="PeakShavingMonth_Best_MonthPeak" xml:space="preserve">
+        <value>Gemiddelde maandpiek</value>
+    </data>
+    <data name="CommonDataObj_BestCase_2" xml:space="preserve">
+        <value>Je gemiddelde maandpiek zou nu [Value] kW bedragen.</value>
+    </data>
+    <data name="CommonDataObj_BestCase_3" xml:space="preserve">
+        <value>Dit betekent een capaciteitstarief voor de simulatieperiode van €[Price1]/maand. Dat is een {b}bijkomende besparing van €[Price2]/maand{/b} over de simulatieperiode van één maand dankzij het slimme [CompanyName]-algoritme. Dus extra bovenop de ‘gewone’ besparingen die je nog steeds reaiiseert met je [BatteryName] thuisbatterij door het verhogen van je netonafhankelijkheid.</value>
+    </data>
+</root>

@@ -1,0 +1,65 @@
+<!--<div class="text-center text-center size">-->
+<!--  <button pButton type="button" icon="fa fa-pencil" class="button-primary" (click)="formModal = true"></button>-->
+<!--  <p class="button-para-text">Edit</p>-->
+<!--</div>-->
+
+<div (click)="formModal = true">
+  <a class="" icon="fa fa-pencil">Edit</a>
+  <i class="fa fa-pencil ml-2"></i>
+</div>
+
+<!-- Form Modal -->
+<div class="modal" [ngClass]="{ active: formModal }" (click)="closeModal($event)">
+  <div class="modal-dialog" role="dialog" style="width: 800px">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="col-md-12">
+          <div class="card-title-container">
+            <h5 class="card-title">Edit Component type</h5>
+          </div>
+          <div class="col-md-2 dialog-close-btn-container">
+            <button type="button" class="close" data-dismiss="modal" (click)="formModal = false"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-5">
+            <label class="form-label">Name</label>
+          </div>
+          <div class="col-md-7">
+            <div class="form-group">
+              <input type="text" class="form-control" [(ngModel)]="type.name"/>
+            </div>
+          </div>
+        </div>
+        <!--Filter-->
+        <div class="">
+          <label class="form-label" for="parentEdit{{type.name}}"><input id="parentEdit{{type.name}}" type="checkbox" [checked]="type.haveParent" (change)="clickFlagParent()"> Allow have a parent</label>
+        </div>
+        <!--Button-->
+        <div class="button-elem">
+          <div class="">
+            <a class="btnLogout" (click)="save()">Save</a>
+          </div>
+          <div class="button-cancel">
+            <a class="btnLogout" (click)="formModal = false">Cancel</a>
+          </div>
+        </div>
+<!--        <div class="row">-->
+<!--          <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2 offset-8 offset-sm-9 offset-md-10 offset-lg-10 offset-xl-10 text-center size">-->
+<!--            <button-->
+<!--              pButton-->
+<!--              type="button"-->
+<!--              icon="fa fa-check"-->
+<!--              class="button-success p-button-rounded"-->
+<!--              (click)="save()"-->
+<!--            ></button>-->
+<!--            <p class="button-para-text">Accepted</p>-->
+<!--          </div>-->
+<!--        </div>-->
+      </div>
+    </div>
+  </div>
+</div>

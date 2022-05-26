@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>ReportingOrchestrator</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\ReportGeneratorMS\ReportGeneratorMSClient\ReportGeneratorClient\ReportGeneratorClient.csproj" />
+      <ProjectReference Include="..\CugReportsMS.Adapter\CugReportsMS.Adapter.csproj" />
+      <ProjectReference Include="..\CugReportsMS.ReportNameManager\CugReportsMS.ReportNameManager.csproj" />
+    </ItemGroup>
+
+</Project>

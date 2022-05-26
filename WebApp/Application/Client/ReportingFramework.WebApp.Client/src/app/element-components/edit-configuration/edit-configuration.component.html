@@ -1,0 +1,155 @@
+<div class="edit-configuration-component">
+  <!-- Breadcrumb Card -->
+  <div class="row">
+    <div class="col-md-4">
+      <div class="breadcrumb-card">
+        <p class="breadcrumb-text">
+          Equipment metadata configuration <i class="fa fa-angle-right"></i> Component configuration
+          <i class="fa fa-angle-right"></i>
+          <span class="section-text"> Edit configuration</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!--New configuration-->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="title-save">
+          <h1>Edit configuration</h1>
+          <div class="title-button">
+            <button routerLink="../configuration"
+                    class="btnLogout new-configuration-button button-back"
+                    pButton
+                    type="button"
+                    label="Back"
+                    icon="fa fa-arrow-left"
+                    iconPos="left">
+            </button>
+            <div class="">
+              <app-save-changes-configuration [configurationList]="configurationList" [configurationId]="configurationId" [configPropertyList]="configProperty"></app-save-changes-configuration>
+            </div>
+          </div>
+        </div>
+        <!--Table-->
+        <div class="col-md-12">
+          <div class="row padding-b-null" #listConfig>
+            <!--Element-->
+            <div *ngFor="let configuration_elem of configurationList; let i = index">
+              <div class="conf-div height-100" [style.width.px]="listConfig.getBoundingClientRect().width/countElem">
+                <!--Delete-->
+                <div class="icon-delete" (click)="deleteConf(i)" *ngIf="i > 0">
+                  <a class=""></a>
+                  <i class="fa fa-trash ml-2"></i>
+                </div>
+                <div class="icon-delete-hidden" (click)="deleteConf(i)" *ngIf="i == 0">
+                  <a class=""></a>
+                  <i class="fa fa-trash ml-2"></i>
+                </div>
+                <!--Type-->
+                <div class="row padding-b-null row-elem">
+                  <div class="elem-text">
+                    <label class="elem-label">Component type</label>
+                  </div>
+                  <!-- Drop Down -->
+                  <div class="elem-select">
+                    <div class="dropdown-select">
+                      <select [(ngModel)]="configuration_elem.componentTypeId" (change)="getComponentTypes(configuration_elem.componentTypeId,i)">
+                        <option *ngFor="let type of configuration_elem.types" [value]="type.componentTypeId">{{type.name}}</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <!--Name-->
+                <div class="row padding-b-null row-elem">
+                  <div class="elem-text">
+                    <label class="elem-label">Name</label>
+                  </div>
+                  <div class="elem-select">
+                    <div class="dropdown-select">
+                      <select [(ngModel)]="configuration_elem.componentId" *ngIf="configuration_elem.componentsByType.length > 0" (change)="changeElements(i)">
+                        <option *ngFor="let componentByType of configuration_elem.componentsByType" [value]="componentByType.componentId">{{componentByType.name}}</option>
+                      </select>
+                      <select [(ngModel)]="configuration_elem.componentId" *ngIf="configuration_elem.componentsByType.length == 0">
+                        <option [value]="-2">None</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <!--Parent-->
+                <div class="row padding-b-null row-elem">
+                  <div class="elem-text">
+                    <label class="elem-label">Parent</label>
+                  </div>
+                  <div class="elem-select">
+                    <div class="dropdown-select">
+                      <select [(ngModel)]="configuration_elem.parentId " *ngIf="configurationList.indexOf(configuration_elem) > 0" (change)="convertToJson(); setDiagram()">
+                        <option *ngFor="let parent of configuration_elem.parents; let j = index" [value]="j">{{getNameParent(parent, types)}}</option>
+                      </select>
+                      <select [(ngModel)]="configuration_elem.parentId" *ngIf="configurationList.indexOf(configuration_elem) == 0">
+                        <option [value]="-1">None</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <!--Properties-->
+                <div *ngFor="let property of configProperty[i].properties; let z = index">
+                  <div class="row padding-b-null row-elem">
+                    <div class="elem-text">
+                      <label class="elem-label margin-0">{{property.name}}</label>
+                    </div>
+                    <div class="elem-select">
+                      <input type="text" class="form-control" placeholder="Value" [(ngModel)]="configProperty[i].configurationPropertiesComponents[z].value"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Plus-->
+            <div class="conf-div button-plus" [style.width.px]="listConfig.getBoundingClientRect().width/countElem">
+              <button pButton type="button" icon="fa fa-plus" class="button-primary" (click)="clickPlus()"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <!--Diagram-->
+      <div class="card col-md-12">
+        <h1>Diagram</h1>
+        <!--Table-->
+        <div id="myDiagramDiv_edit_{{this.configurationId}}" class="myDiagram"></div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <!--Json-->
+      <div class="card">
+        <div class="title-save">
+          <h1>Json</h1>
+          <button (click)="downloadJsonFile()"
+                  class="btnLogout new-configuration-button button-back"
+                  pButton
+                  type="button"
+                  label="Download"
+                  icon="fa fa-download"
+                  iconPos="left">
+          </button>
+        </div>
+        <div class="col-md-12 two-element-content">
+          <div class="row padding-b-null">
+            <div #json></div>
+<!--            <pre [innerText]="beautifyJsonString()"></pre>-->
+<!--            <ngx-json-viewer [json]="jsonConfTwo"></ngx-json-viewer>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

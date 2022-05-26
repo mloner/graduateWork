@@ -1,0 +1,65 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Peakshaving</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>Vanaf 2022 zullen de kosten voor het gebruik van het distributienet niet meer bepaald worden op basis van hoeveelheid stroom die je afneemt. Ze zullen worden bepaald op basi van de pieken van verbruik en injectie die jouw apparatuur veroorzaakt. Het is geen extra tarief, het is een andere berekening. Maar wel één die je met een batterij goed kunt beïnvloeden.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2" xml:space="preserve">
+        <value>Deze aanpassing is noodzakelijk om het netwerk stabiel te kunnen houden. Door de groei van onder andere het aantal zonnepanelen, warmtepompen en elektrische wagens wordt het netwerk van Fluvius immers door deze pieken zwaarder belast dan voorheen.</value>
+    </data>
+    <data name="PeakShavMonthly_RefPeak" xml:space="preserve">
+        <value>Werkelijke piek</value>
+    </data>
+    <data name="PeakShavMonthly_BestPeak" xml:space="preserve">
+        <value>Optimale piek</value>
+    </data>
+    <data name="PeakShavMonthly_TariffPeak" xml:space="preserve">
+        <value>Tarief piek</value>
+    </data>
+    <data name="PeakShavMonthly_SeriesRef" xml:space="preserve">
+        <value>Zonder batterij</value>
+    </data>
+    <data name="PeakShavMonthly_SeriesBest" xml:space="preserve">
+        <value>Aanbevolen installatie</value>
+    </data>
+    <data name="Chart_PeakShavMonthly__Title" xml:space="preserve">
+        <value>Piekvermogen beperken (maandelijks)</value>
+    </data>
+    <data name="PeakShavAvgDay_RefPeak" xml:space="preserve">
+        <value>Werkelijke piek</value>
+    </data>
+    <data name="PeakShavAvgDay_BestPeak" xml:space="preserve">
+        <value>Optimale piek</value>
+    </data>
+    <data name="PeakShavAvgDay_TariffPeak" xml:space="preserve">
+        <value>Tarief piek</value>
+    </data>
+    <data name="PeakShavAvgDay_SeriesRef" xml:space="preserve">
+        <value>Zonder batterij</value>
+    </data>
+    <data name="PeakShavAvgDay_SeriesBest" xml:space="preserve">
+        <value>Aanbevolen installatie</value>
+    </data>
+    <data name="Chart_PeakShavAvgDay__Title" xml:space="preserve">
+        <value>Piekvermogen voorkomen (dagelijks)</value>
+    </data>
+    <data name="CommonDataObj_Desc_3" xml:space="preserve">
+        <value>Op de site van de VREG kun je hierover alle informatie terugvinden: https://www.vreg.be/nl/ toekomst-nettarieven-capaciteitstarief.</value>
+    </data>
+    <data name="CommonDataObj_Desc_4" xml:space="preserve">
+        <value>In onderstaande grafiek zie je hoe de batterij dat zou doen. Over het gehele jaar en – als voorbeeld – in juli.</value>
+    </data>
+</root>

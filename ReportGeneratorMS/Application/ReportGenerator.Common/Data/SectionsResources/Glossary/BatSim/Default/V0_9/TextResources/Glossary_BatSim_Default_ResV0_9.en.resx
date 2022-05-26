@@ -1,0 +1,59 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Glossary</value>
+    </data>
+    <data name="Glossary_BatteryDegradation" xml:space="preserve">
+        <value>Battery degradation</value>
+    </data>
+    <data name="Glossary_BatteryDegradation_Desc" xml:space="preserve">
+        <value>Batteries are subject to degradation during storage due to a variety of chemical mechanisms, such as changes in temperature. Battery performance may decrease during use due to parasitic reactions, such as electrolyte reactions in lithium metal batteries. Degradation rates can also vary due to temperature fluctuations. This report takes into account the degradation expectations as stated by the various manufacturers. We apply this linearly.</value>
+    </data>
+    <data name="Glossary_Power" xml:space="preserve">
+        <value>Power</value>
+    </data>
+    <data name="Glossary_Power_Desc" xml:space="preserve">
+        <value>in this context is the total power and speed that a home battery can deliver, measured in kiloWatts.</value>
+    </data>
+    <data name="Glossary_Capacity" xml:space="preserve">
+        <value>Capacity</value>
+    </data>
+    <data name="Glossary_Capacity_Desc" xml:space="preserve">
+        <value>in this context is the total amount of electricity that a home battery can store, measured in kilowatt hours (kWh).</value>
+    </data>
+    <data name="Glossary_CRate" xml:space="preserve">
+        <value>C-rate</value>
+    </data>
+    <data name="Glossary_CRate_Desc" xml:space="preserve">
+        <value>is a measure of the rate at which a battery is charged or discharged. A battery with 1C can charge or discharge itself in 1 hour. A battery with 3C can do this 3 times in 1 hour. It is important not to exceed the C-rate to ensure long battery life. This C-rate is therefore important when analyzing the extent to which a battery can absorb peaks.</value>
+    </data>
+    <data name="Glossary_Cycle" xml:space="preserve">
+        <value>Cycle</value>
+    </data>
+    <data name="Glossary_Cycle_Desc" xml:space="preserve">
+        <value>The life of a battery is determined by the number of times it can be fully charged and discharged, the so-called “cycles”. Manufacturers usually guarantee a number of years of service life and/or a maximum number of cycles. A higher number of cycles gives Bliq a lot of freedom to take extra actions to increase profitability. In our analysis, we never go beyond 110% usage of guaranteed cycles.</value>
+    </data>
+    <data name="Glossary_Dod" xml:space="preserve">
+        <value>DOD (Depth of Discharge)</value>
+    </data>
+    <data name="Glossary_Dod_Desc" xml:space="preserve">
+        <value>Most solar batteries must maintain some charge at all times due to their chemical makeup. Using 100 percent of the battery charge will significantly shorten the run time. However, DOD is described by manufacturers in 2 ways. A battery with 10 kWh capacity, 90% DOD, is thus equal to a 9 kWh battery with 100% DOD. Both have a usable capacity of 9 kWh.</value>
+    </data>
+    <data name="Glossary_Rte" xml:space="preserve">
+        <value>RTE (Round trip efficiency)</value>
+    </data>
+    <data name="Glossary_Rte_Desc" xml:space="preserve">
+        <value>This represents the amount of energy that can be used as a percentage of the amount of energy it took to store it. For example, if you add five kWh of electricity to your battery and get only four kWh of useful electricity back, the battery will have 80% round-trip efficiency (4 kWh / 5 kWh = 80%). Higher round-trip efficiency means you get more economic value from your battery.</value>
+    </data>
+</root>

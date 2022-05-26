@@ -1,0 +1,74 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Compared capabilities</value>
+    </data>
+    <data name="ComparisonScenariosTable_TariffName" xml:space="preserve">
+        <value>Tariff</value>
+    </data>
+    <data name="ComparisonScenariosTable_Algo" xml:space="preserve">
+        <value>Algo</value>
+    </data>
+    <data name="ComparisonScenariosTable_CaseName" xml:space="preserve">
+        <value>Decision</value>
+    </data>
+    <data name="ComparisonScenariosTable_Investment" xml:space="preserve">
+        <value>Invest.</value>
+    </data>
+    <data name="ComparisonScenariosTable_ServiceCost" xml:space="preserve">
+        <value>Service cost</value>
+    </data>
+    <data name="ComparisonScenariosTable_CapacityCost" xml:space="preserve">
+        <value>Capacity cost</value>
+    </data>
+    <data name="ComparisonScenariosTable_ConsumptionCost" xml:space="preserve">
+        <value>Consumption cost</value>
+    </data>
+    <data name="ComparisonScenariosTable_InjectionCost" xml:space="preserve">
+        <value>Injection cost</value>
+    </data>
+    <data name="ComparisonScenariosTable_CyclesUsedPercent" xml:space="preserve">
+        <value>Cycles used</value>
+    </data>
+    <data name="ComparisonScenariosTable_OperationalCost" xml:space="preserve">
+        <value>Operational cost</value>
+    </data>
+    <data name="ComparisonScenariosTable_TotalSavings" xml:space="preserve">
+        <value>Net savings</value>
+    </data>
+    <data name="ComparisonScenariosTable_AlgoNoControl" xml:space="preserve">
+        <value>Without control</value>
+    </data>
+    <data name="ComparisonScenariosTable_Recommended" xml:space="preserve">
+        <value>recommended</value>
+    </data>
+    <data name="ComparisonScenariosTable_RefCaseNoBattery" xml:space="preserve">
+        <value>Reference No battery</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>The overview below compares the different battery options with the situation without a battery. The option with the best ratio between investment and net power purchase is the recommended option.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2" xml:space="preserve">
+        <value>In the appendices you will find more information about how we arrived at our advice. We have done our utmost to analyze and treat all data as carefully as possible. [CompanyName] use your historical consumption and feed-in pattern to make an estimate for the future. Due to changes in your consumption pattern, legislation and regulations or changes in the electricity market, our prediction can of course deviate from reality. No rights can therefore be derived from this report. [CompanyName] and its partners are not liable for realizing the profitability, savings and/or payback times shown, this is not financial advice.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3" xml:space="preserve">
+        <value>We hope this advice is a valuable addition to your decision to purchase a home battery. Contact us and we will connect you to a [CompanyName] partner in the brute. He will gladly help you further.</value>
+    </data>
+    <data name="ComparisonScenariosTable_Npv" xml:space="preserve">
+        <value>NPV</value>
+    </data>
+    <data name="ComparisonScenariosTable_Tariff_Single" xml:space="preserve">
+        <value>Single</value>
+    </data>
+</root>

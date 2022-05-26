@@ -1,0 +1,74 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Vergeleken mogelijkheden</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>In onderstaand overzicht worden de verschillende batterij-opties vergeleken met de situatie zonder batterij. De optie met de beste verhouding tussen de investering en de netto stroom aankoop is de aanbevolen optie.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2" xml:space="preserve">
+        <value>In de bijlages treft u nog meer informatie aan over hoe wij tot ons advies zijn gekomen. Wij hebben ons uiterste best gedaan om alle data zo zorgvuldig mogelijk te analyseren en te behandelen. [CompanyName] gebruik jouw historische verbruik en terugleverpatroon om een inschatting voor de toekomst te maken. Door wijzigingen in je verbruikspatroon, wet- en regelgeving of veranderingen op de elektriciteitsmarkt kan onze voorspelling uiteraard afwijken van de werjkelijkheid. Aan deze rapport kunnen daarom geen rechten worden ontleend. [CompanyName] en haar partners zijn niet aansprakelijk voor het realiseren van de getoonde rendabiliteit, besparingen en/of terugvedientijden, dit is geen financieel advies.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3" xml:space="preserve">
+        <value>Wij hopen dat dit advies een waardevolle aanvulling is bij jouw beslissing om een thuisbatterij aan te schaffen. Neem contact met ons op, dan verbinden wij jou aan een [CompanyName] partner in de bruut. Die helpt je graag verder.</value>
+    </data>
+    <data name="ComparisonScenariosTable_CaseName" xml:space="preserve">
+        <value>Besluit</value>
+    </data>
+    <data name="ComparisonScenariosTable_TariffName" xml:space="preserve">
+        <value>Tarief</value>
+    </data>
+    <data name="ComparisonScenariosTable_Algo" xml:space="preserve">
+        <value>Algo</value>
+    </data>
+    <data name="ComparisonScenariosTable_Investment" xml:space="preserve">
+        <value>Invest.</value>
+    </data>
+    <data name="ComparisonScenariosTable_ServiceCost" xml:space="preserve">
+        <value>Service kosten</value>
+    </data>
+    <data name="ComparisonScenariosTable_CapacityCost" xml:space="preserve">
+        <value>Netbeheer kosten</value>
+    </data>
+    <data name="ComparisonScenariosTable_ConsumptionCost" xml:space="preserve">
+        <value>Aankoop elektriciteit</value>
+    </data>
+    <data name="ComparisonScenariosTable_InjectionCost" xml:space="preserve">
+        <value>Teruglevering elektriciteit</value>
+    </data>
+    <data name="ComparisonScenariosTable_CyclesUsedPercent" xml:space="preserve">
+        <value>Percentage van totaal aantal cycli gebruikt</value>
+    </data>
+    <data name="ComparisonScenariosTable_OperationalCost" xml:space="preserve">
+        <value>Netto aan- verkoop</value>
+    </data>
+    <data name="ComparisonScenariosTable_TotalSavings" xml:space="preserve">
+        <value>Net besparing</value>
+    </data>
+    <data name="ComparisonScenariosTable_AlgoNoControl" xml:space="preserve">
+        <value>Zonder aansturing</value>
+    </data>
+    <data name="ComparisonScenariosTable_Recommended" xml:space="preserve">
+        <value>aanbevolen</value>
+    </data>
+    <data name="ComparisonScenariosTable_RefCaseNoBattery" xml:space="preserve">
+        <value>Referentie Geen Batterij</value>
+    </data>
+    <data name="ComparisonScenariosTable_Npv" xml:space="preserve">
+        <value>NPV</value>
+    </data>
+    <data name="ComparisonScenariosTable_Tariff_Single" xml:space="preserve">
+        <value>Single</value>
+    </data>
+</root>

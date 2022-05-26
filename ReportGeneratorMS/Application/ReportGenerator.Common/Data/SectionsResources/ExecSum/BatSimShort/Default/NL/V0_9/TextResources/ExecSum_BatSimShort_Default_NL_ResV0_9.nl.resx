@@ -1,0 +1,49 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Batterij-adviesrapport</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>Hé zonaanbidder, we hebben de afgelopen maanden jouw energieverbruik secuur in kaart gebracht. De gegevens worden ieder kwartier geregistreerd, sinds [FirstMeasurementDate] zijn er zo [MeasurementCount] metingen gedaan. In dit rapport laten we zien wat het toevoegen van een batterij en aansturing van [CompanyName] betekend voor jouw situatie. Voor een andere woning, met een ander elektriciteitsprofiel, kan de uitslag anders zijn. Aan dit rapport kunnen daarom geen rechten worden ontleend. [CompanyName] en haar partners zijn niet aansprakelijk voor het realiseren van de getoonde besparingen en/of kosten, dit is geen financieel advies. Wij hopen dat dit advies een waardevolle aanvulling is bij jouw beslissing om een thuisbatterij aan te schaffen. Neem contact met ons op, dan verbinden wij jou aan een [CompanyName] partner in de buurt. Die helpt je graag verder
+</value>
+    </data>
+    <data name="CommonDataObj_Location_Title" xml:space="preserve">
+        <value>Locatie</value>
+    </data>
+    <data name="LocationInfo_ConsumptionInfo_Consumption" xml:space="preserve">
+        <value>Consumption</value>
+    </data>
+    <data name="LocationInfo_ConsumptionInfo_Generation" xml:space="preserve">
+        <value>Generation</value>
+    </data>
+    <data name="LocationInfo_ConsumptionInfo_Injection" xml:space="preserve">
+        <value>Injection</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_Title" xml:space="preserve">
+        <value>Hoe bespaar je geld met je batterij?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_1_Title" xml:space="preserve">
+        <value>Hoeveel elektriciteit lever je terug?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_1" xml:space="preserve">
+        <value>Stroom wat je teruglevert aan het net wordt onder de salderingsregeling verrekend met stroom die je inkoopt. Naar verwachting* wordt de salderingsregeling na 2023 stapsgewijs afgebouwd, wat betekent dat je elk kaar een kleiner deel van je teruggeleverde stroom mag wegstrepen tegen je ingekochte stroom.  Voor het overige deel ontvang je dan een terugleververgoeding van je energieleverancier. Deze is lager dan de prijs die je betaalt om stroom te kopen. Daarbij krijg je ook nog eens geen belasting terug, die wel bij de inkoop wordt gerekend. Het wordt daarom voordelig om de stroom die je opwekt op te slaan en zelf te gebruiken, zodat je minder stroom hoeft in te kopen. Je spaart dan dus geld uit door je zelfconsumptie te verhogen. Met [CompanyName] kan de zelfconsumptie verder worden verhoogd, omdat [CompanyName] elke dag zorgt voor de benodigde capaciteit in je batterij. 
+*Hoe de afbouw van de salderingsregeling er precies uit gaat zien is nog onderwerp van politieke discussie.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_2_Title" xml:space="preserve">
+        <value>Maak je gebruik van de elektriciteitsmarkt?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_2" xml:space="preserve">
+        <value>De prijs die je als consument gewend bent te betalen voor je stroom wordt vastgesteld op basis van een voorspeld gemiddelde. De werkelijke prijs van stroom verschilt elk kwartier, afhankelijk van de vraag en aanbod op dat moment. Met een batterij in combinatie met slimme aansturing is het mogelijk om je in- en verkoop af te stemmen op deze prijsfluctuaties. Je kunt daarmee een stuk goedkoper uit zijn dan met een standaard energiecontract. [CompanyName] maakt het hele jaar door (ook in de winter) veel betere keuzes om je  terugleverprijs te verhogen en afnameprijs te verlagen.</value>
+    </data>
+</root>

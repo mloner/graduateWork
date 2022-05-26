@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="ReportHeader" xml:space="preserve">
+        <value />
+    </data>
+    <data name="ReportSubheader" xml:space="preserve">
+        <value />
+    </data>
+    <data name="BasicInfoTitle" xml:space="preserve">
+        <value />
+    </data>
+    <data name="BasicInfo_BuildingName" xml:space="preserve">
+        <value />
+    </data>
+    <data name="BasicInfo_Email" xml:space="preserve">
+        <value />
+    </data>
+    <data name="BasicInfo_ReportDate" xml:space="preserve">
+        <value />
+    </data>
+    <data name="BasicInfo_SimulationPeriod" xml:space="preserve">
+        <value />
+    </data>
+    <data name="BasicInfo_SimulatedDaysNumer" xml:space="preserve">
+        <value />
+    </data>
+    <data name="BasicInfo_BatteryModel" xml:space="preserve">
+        <value />
+    </data>
+    <data name="BasicInfo_BatteryCapacity" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_Desc1" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_Desc2" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_PeakShavingExpl_Title" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_CapacityTariffExpl_Title" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_CapacityTariffExpl_1" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_CapacityTariffExpl_2" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_CapacityTariffExpl_3" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_NetCostExpl_Title" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_NetCostExpl_1" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_NetCostExpl_2" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_NetCostExpl_3" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_NetCostExpl_4" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_AddCostExpl_Title" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_AddCostExpl_1" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_AddCostExpl_2" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_AddCostExpl_3" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_AddCostExpl_4" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_AddCostExpl_5" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_AddCostExpl_6" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_AddCostExpl_7" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_SmartPeakShavingExpl_Title" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_SmartPeakShavingExpl_1" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_SmartPeakShavingExpl_2" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_SmartPeakShavingExpl_3" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_SmartPeakShavingExpl_4" xml:space="preserve">
+        <value />
+    </data>
+    <data name="CommonDataObj_SmartPeakShavingExpl_5" xml:space="preserve">
+        <value />
+    </data>
+</root>

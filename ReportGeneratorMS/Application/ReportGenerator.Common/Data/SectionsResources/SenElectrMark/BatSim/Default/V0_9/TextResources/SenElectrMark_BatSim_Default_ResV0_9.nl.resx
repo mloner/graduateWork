@@ -1,0 +1,62 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Invloed van de stroomprijs op de terugverdientijd</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>Stijgingen of verlagingen van de elektriciteitsprijs hebben een grote invloed op de terugverdientijd. De elektriciteitstarieven zijn de afgelopen vijf jaar met gemiddeld 2% per jaar gestegen. In 2021 zullen ze nam zelfs een prijssprong van enkele tientallen procenten. Voor deze analyse, die een voorspelling maakt gedurende 15 jaar hebben we ervoor gekozen om conservatief te rekenen en daarom zijn we uitgegaan van een gemiddelde prijsstijging van 1%. De prijzen kunnen echter langzamer of sneller stijgen. Het is ook mogelijk dat de spreiding per dag zal toenemen, waardoor de volatiliteit van de energieprijzen zal toenemen. In de onderstaande matrix laten we zien hoe stijgingen en dalingen van invloed zijn op het rendement op uw investering.</value>
+    </data>
+    <data name="SensitivityMatrix_XAxis" xml:space="preserve">
+        <value>Average price change</value>
+    </data>
+    <data name="SensitivityMatrix_YAxis" xml:space="preserve">
+        <value>Sprite per day</value>
+    </data>
+    <data name="Chart_SensitivityMatrix_Title" xml:space="preserve">
+        <value>Electricity price sensitivity matrix</value>
+    </data>
+    <data name="Chart_AverageHourlyDam_Title" xml:space="preserve">
+        <value>Average day for the last of 365 days</value>
+    </data>
+    <data name="AverageHourlyDam_Weekends" xml:space="preserve">
+        <value>Weekends</value>
+    </data>
+    <data name="AverageHourlyDam_WorkingDays" xml:space="preserve">
+        <value>Working days</value>
+    </data>
+    <data name="AverageHourlyDam_AllDays" xml:space="preserve">
+        <value>All days</value>
+    </data>
+    <data name="Chart_PriceAndSpreadYearlyGrow_Title" xml:space="preserve">
+        <value>Yearly DAM grow</value>
+    </data>
+    <data name="PriceAndSpreadYearlyGrow_AllDays" xml:space="preserve">
+        <value>All days</value>
+    </data>
+    <data name="PriceAndSpreadYearlyGrow_WorkingDays" xml:space="preserve">
+        <value>Working days</value>
+    </data>
+    <data name="PriceAndSpreadYearlyGrow_Weekends" xml:space="preserve">
+        <value>Weekends</value>
+    </data>
+    <data name="PriceAndSpreadYearlyGrow_AllDaysSpread" xml:space="preserve">
+        <value>All days, spread</value>
+    </data>
+    <data name="PriceAndSpreadYearlyGrow_WorkingDaysSpread" xml:space="preserve">
+        <value>Working days, spread</value>
+    </data>
+    <data name="PriceAndSpreadYearlyGrow_WeekendsSpread" xml:space="preserve">
+        <value>Weekends, spread</value>
+    </data>
+</root>

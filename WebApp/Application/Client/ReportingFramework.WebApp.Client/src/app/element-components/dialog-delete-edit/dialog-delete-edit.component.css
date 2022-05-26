@@ -1,0 +1,69 @@
+.dialog-table
+{
+  text-align: center;
+  width: 874px;
+  border-spacing: 5px 1rem;
+  font-family: Cabin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  padding-top: 25px}
+
+
+.mat-dialog-container
+{
+  border: 2px solid black;
+}
+
+.mat-dialog-actions
+{
+  margin-top: 20px;
+  display: block !important;
+}
+/**  Copyright 2020 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license */
+/deep/ .mat-button.ok-button{
+  font-family: Cabin;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  width: 109.89px;
+  height: 30px;
+  background: #BA4C4C;
+  border: 1px solid #BA4C4C;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+/deep/ .mat-button.no-button{
+  font-family: Cabin;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  width: 109.89px;
+  height: 30px;
+  background: #C4C4C4;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+::ng-deep.mat-dialog-container {
+  border-radius: 20px !important;
+}
+.border_bottom
+{
+  margin-bottom: 17px;
+}
+.loader{
+  height: 107px;
+  width: 107px;
+  margin-left: 7px;
+  margin-top: 17px;
+}

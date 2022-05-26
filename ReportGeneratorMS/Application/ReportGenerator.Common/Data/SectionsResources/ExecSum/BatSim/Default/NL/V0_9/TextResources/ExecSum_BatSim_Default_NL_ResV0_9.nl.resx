@@ -1,0 +1,62 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Batterij advies rapport</value>
+    </data>
+    <data name="CommonDataObj_Desc_1" xml:space="preserve">
+        <value>De energiemarkt is volop in beweging en als zonnepanelenbezitter kun je hier nu nog meer profijt van hebben door het toevoegen van een batterij aan je installatie. Dit adviesrapport is een advies op basis van jouw persoonlijke situatie. Voor een andere woning, met een ander elektriciteitsprofiel kan dit anders zijn.</value>
+    </data>
+    <data name="LocationInfo_ConsumptionInfo_Consumption" xml:space="preserve">
+        <value>Jaarverbruik</value>
+    </data>
+    <data name="LocationInfo_ConsumptionInfo_Generation" xml:space="preserve">
+        <value>Jaar Opwek</value>
+    </data>
+    <data name="LocationInfo_ConsumptionInfo_Injection" xml:space="preserve">
+        <value>Jaar injectie</value>
+    </data>
+    <data name="CommonDataObj_Location_Title" xml:space="preserve">
+        <value>Locatie</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_1" xml:space="preserve">
+        <value>De afgelopen maanden heeft Bliq via je slimme meter bijgehouden hoeveel elektriciteit je inkoopt en teruglevert met jouw zonnepanelen. De gegevens worden ieder kwartier geregistreerd, sinds [FirstMeasurementDate] zijn er zo [MeasurementCount] metingen gedaan.</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_Title" xml:space="preserve">
+        <value>Jouw persoonlijk batterij advies</value>
+    </data>
+    <data name="CommonDataObj_Desc_2_2" xml:space="preserve">
+        <value>Op basis van deze gegevens hebben we geanalyseerd of een thuisbatterij voor jou een goede keuze zou zijn, en welke keuze dan de meest rendabele is.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_Title" xml:space="preserve">
+        <value>Welke factoren zijn van grote invloed?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_1_Title" xml:space="preserve">
+        <value>Hoeveel elektriciteit lever je terug?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_1" xml:space="preserve">
+        <value>Stroom wat je teruglevert aan het net wordt nu nog verrekend met je ingekochte stroom. Zodra de salderingsregeling wordt afgebouwd is het beter om het deel van je zelf opgewekte elektriciteit dat je niet meer mag salderen op te slaan en deze later te gebruiken wanneer je anders dure elektriciteit zou moeten aankopen. Dit noemen we “het verhogen van zelfconsumptie” en is de standaard toepassing van een thuisbatterij. Met [CompanyName] kan de zelfconsumptie verder worden verhoogd.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_2_Title" xml:space="preserve">
+        <value>Veroorzaak je afname- en terugleverpieken?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_2" xml:space="preserve">
+        <value>Je betaalt via je energierekening een maandelijks bedrag voor je elektriciteitsaansluiting. Het bedrag is afhankelijk van de capaciteit. De aansluiting moet groot genoeg zijn om te voorzien in pieken in jouw verbruik en teruglevering (zie voor meer uitleg bijlage 4). Op het moment dat je pieken groter worden dan de capaciteit van je aansluiting moet je een grotere aansluiting nemen. Hierdoor betaal je iedere maand een veel hoger tarief. Door de batterij slim aan te sturen kunnen we voorkomen dat je pieken te hoog worden. In ons advies wordt al rekening gehouden met het voorkomen van zulke pieken. In sommige gevallen kunnen we er ook voor zorgen dat je met een kleinere aansluiting toe kunt, en dat scheelt geld! We zullen in dit rapport doorrekenen wat deze drie toepassingen van een batterij in jouw specifieke situatie zouden betekenen. Deze toepassingen worden verder uitgelegd in bijlage 3.</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_3_Title" xml:space="preserve">
+        <value>Maak je gebruik van de elektriciteitsmarkt?</value>
+    </data>
+    <data name="CommonDataObj_Desc_3_3" xml:space="preserve">
+        <value>Met een batterij in combinatie met slimme aansturing is het mogelijk afname en teruglevering beter af te stemmen op prijsfluctuaties in de energiemarkt. Je bent dan niet meer afhankelijk van de lage terugleververgoeding en hoge afnameprijs. Met een energiecontract dat toegang geeft tot deze elektriciteitsmarkt kan [CompanyName] zo het hele jaar door (ook in de winter) veel betere handelskeuzes maken om je terugleverprijs te verhogen en afnameprijs te verlagen.</value>
+    </data>
+</root>

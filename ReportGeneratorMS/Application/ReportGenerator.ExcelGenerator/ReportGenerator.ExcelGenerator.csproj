@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <LangVersion>10</LangVersion>
+        <RootNamespace>ExcelGenerator</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ClosedXML" Version="0.95.4" />
+      <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.2.3" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Structure\Sections\CugSavingsRep" />
+      <Folder Include="Structure\Sections\MCEM" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\ChartGeneratorMS\ChartGeneratorMSClient\ChartGeneratorMSClient\ChartGeneratorMSClient.csproj" />
+      <ProjectReference Include="..\..\Domain\ReportGenerator.Models\ReportGenerator.Models.csproj" />
+      <ProjectReference Include="..\..\Infrastructure\ReportGenerator.DataBase\ReportGenerator.DataBase.csproj" />
+    </ItemGroup>
+
+</Project>
